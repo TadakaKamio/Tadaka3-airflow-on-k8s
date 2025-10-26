@@ -3,7 +3,7 @@ import os
 from airflow.models import DagBag
 
 # Need to specify directry
-dags_dirs = ["./kubernetes_pod_operator"]
+dags_dirs = ["./common"]
 
 for dags_dir in dags_dirs:
     dag_bag = DagBag(os.path.expanduser(dags_dir))

@@ -15,6 +15,7 @@ from BUNSYO.logger import logger
 #from BUNSYO.bunsyo_http_get_postprocess import *
 
 variables = Variable.get('BUNSYO_HTTP_GET',deserialize_json=True)
+print(variables)
 
 # DAGのスペック設定
 cpu_req = cpu_lim = variables.get('cpu_limit') # 480m

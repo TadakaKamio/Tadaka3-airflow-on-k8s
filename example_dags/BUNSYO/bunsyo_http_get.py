@@ -17,7 +17,7 @@ from BUNSYO.logger import logger
 variables = Variable.get('BUNSYO_HTTP_GET',deserialize_json=True)
 
 # DAGのスペック設定
-cpu_req = cpu_lim = variables.get('cpu_limit',default_var=none) # 480m
+cpu_req = cpu_lim = variables.get('cpu_limit') # 480m
 ram_req = ram_lim = variables.get('memory_limit') # 3G
 
 pod_config = {

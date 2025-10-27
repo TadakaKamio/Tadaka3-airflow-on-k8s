@@ -1,16 +1,12 @@
-import inspect
-from datetime import datetime
-from airflow import DAG
-from airflow.operators.python_operator import PythonOperator
+import sys
+sys.path.append("/usr/local/airflow/dags/gitdags/dags")
 
-dag_id = "ud_file_get"
-with DAG(dag_id=dag_id, start_date=datetime(2025, 10, 27),
-         schedule_interval=None) as dag:
-                  
-    def MyAppLog():
-    # Get the caller's filename
-        caller_frame = inspect.stack()[1]
-        caller_file = caller_frame.filename
+from common.log import MyAppLog
 
-        print(f"MyAppLog was imported by: {caller_file}")
-        print("Hello from MyAppLog function!")
+def main():
+    # Call the imported function
+    MyAppLog()
+    print("Main program execution completed")
+
+if __name__ == "__main__":
+    main()

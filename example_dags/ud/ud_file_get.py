@@ -1,4 +1,9 @@
 import inspect
+from datetime import datetime
+from airflow import DAG
+from airflow.operators.python_operator import PythonOperator
+
+dag_id = "ud_file_get"
 
 def MyAppLog():
     # Get the caller's filename

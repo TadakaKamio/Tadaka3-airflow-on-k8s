@@ -15,7 +15,7 @@ from BUNSYO.logger import logger
 #from BUNSYO.bunsyo_http_get_postprocess import *
 import json
 
-variables = Variable.get('variables',deserialize_json=True)
+variables = Variable.get('Variables',deserialize_json=True)
 print(variables)
 
 # DAGのスペック設定

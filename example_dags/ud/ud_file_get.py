@@ -11,5 +11,6 @@ with DAG(dag_id=dag_id, start_date=datetime(2025, 10, 27),
     # Get the caller's filename
     caller_frame = inspect.stack()[1]
     caller_file = caller_frame.filename
+
     print(f"MyAppLog was imported by: {caller_file}")
     print("Hello from MyAppLog function!")

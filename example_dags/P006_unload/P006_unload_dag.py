@@ -6,6 +6,8 @@ from airflow.utils.dates import days_ago
 from common.log import MyAppLog
 logger = MyAppLog()
 
+variables = Variable.get('conf', deserialize_json=True)
+
 # DAGのスペック設定
 cpu_req = cpu_lim = Variable.get("P006_cpu_limit") # 500m
 ram_req = ram_lim = Variable.get("P006_memory_limit") # 3G

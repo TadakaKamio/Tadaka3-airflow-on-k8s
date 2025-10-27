@@ -7,8 +7,8 @@ from common.log import MyAppLog
 logger = MyAppLog()
 
 # DAGのスペック設定
-cpu_req = cpu_lim = Variable.get("P006_cpu_limit",500) # 500m
-ram_req = ram_lim = Variable.get("P006_memory_limit",3) # 3G
+cpu_req = cpu_lim = Variable.get("P006_cpu_limit",1) # 500m
+ram_req = ram_lim = Variable.get("P006_memory_limit",1) # 3G
 
 pod_config = {
     "pod_override":

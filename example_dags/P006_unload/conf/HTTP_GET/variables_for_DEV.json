@@ -1,0 +1,12 @@
+{
+    "P006_cpu_limit": "500m",
+    "P006_memory_limit": "3G",
+    "P006_df_mount_point": "/tdh",
+    "P006_dtap_work_dir": "/volume7/unload/dwh_d30_lo_sm_corr",
+    "P006_script_path": "/home/mapr/script/airflow/P006/P006_unload.sh",
+    "P006_python_path": "/home/mapr/script/airflow/P006/P006_unload_spark_gz.py",
+    "P006_csv_prefix": "SM_D30_LO_HC",
+    "P006_df_auth": {"hostname": ["10.191.3.238", "10.191.3.239", "10.191.3.240", "10.191.3.241"], "port": 22, "username": "mapr", "password": "password"},
+    "P006_unload_db_name": "pgss1",
+    "P006_unload_table_name": "dwh_d30_lo_sm_corr"
+}

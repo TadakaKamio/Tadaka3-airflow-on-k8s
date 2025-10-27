@@ -1,0 +1,22 @@
+{
+  "cpu_limit": "480m",
+  "memory_limit": "3G",
+  "schedule_interval": "0 21 * * *",
+  "method": "PROPFIND",
+  "base_url": [
+    "https://192.168.8.19:8080"
+  ],
+  "src_path": "06425_PG-AI\u57fa\u76e4_\u76ee\u7684\u5225\u30e6\u30fc\u30b9\u30b1\u30fc\u30b9_\u30c7\u30fc\u30bf\u683c\u7d0d",
+  "user_auth": {
+    "password": "TDH_dev_6S",
+    "user": "tdh-app_team-dev-ml@ml.tepsys.co.jp"
+  },
+  "dtap_path": "dtap://stg",
+  "dest_path": "/volume1/lake/BUNSYO_MANUAL",
+  "file_list_csv": "upload_files_list",
+  "max_retries": 3,
+  "wait_seconds": 10,
+  "csv_flg": "False",
+  "uuid_flg": "False",
+  "filter_target": []
+}

@@ -1,0 +1,12 @@
+{
+  "BUNSYO_BACKUP_FILES": {
+    "cpu_limit": "480m",
+    "memory_limit": "3G",
+    "schedule_interval": "0 1 * * *",
+    "dtap_path": "dtap://U2_work",
+    "src_path": "/BUNSYO-test",
+    "bk_path": "/BUNSYO-test/bk",
+    "process_date":"",
+    "num_dates_to_keep": 7
+  }
+}

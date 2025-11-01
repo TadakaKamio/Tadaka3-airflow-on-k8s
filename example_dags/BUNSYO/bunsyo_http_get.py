@@ -20,9 +20,9 @@ variables = Variable.get('BUNSYO_HTTP_GET', deserialize_json=True)
 print(variables)
 
 cpu_limit_value = variables["cpu_limit"]
-mamory_limit_value = variables["memory_limit"]
+memory_limit_value = variables["memory_limit"]
 
-print(f"cpu_limit: {cpu_lim}, memory_limit: {ram_lim}")
+print(f"cpu_limit: {cpu_limit}, memory_limit: {memory_limit}")
 
 # DAGのスペック設定
 cpu_req = cpu_lim = variables.get('cpu_limit') # 480m

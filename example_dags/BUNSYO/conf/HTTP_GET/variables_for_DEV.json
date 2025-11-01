@@ -1,4 +1,5 @@
 {
+  "BUNSYO":{ 
   "cpu_limit": "480m",
   "memory_limit": "3G",
   "schedule_interval": "0 21 * * *",
@@ -19,4 +20,5 @@
   "csv_flg": "False",
   "uuid_flg": "False",
   "filter_target": []
+}
 }

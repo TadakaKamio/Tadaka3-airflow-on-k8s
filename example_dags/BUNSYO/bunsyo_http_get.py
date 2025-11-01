@@ -19,7 +19,10 @@ from BUNSYO.bunsyo_http_get_postprocess import *
 variables = Variable.get('BUNSYO_HTTP_GET', deserialize_json=True)
 print(variables)
 
-time.sleep(10)
+cpu_lim_value = variables["cpu_lim"]
+ram_lim_value = variables["ram_lim"]
+
+print(f"cpu_lim: {cpu_lim}, ram_lim: {ram_lim}")
 
 # DAGのスペック設定
 cpu_req = cpu_lim = variables.get('cpu_limit') # 480m

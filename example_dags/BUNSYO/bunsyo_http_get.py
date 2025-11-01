@@ -13,9 +13,8 @@ from urllib.parse import unquote
 from BUNSYO.logger import logger
 from BUNSYO.bunsyo_http_get_preprocess import *
 from BUNSYO.bunsyo_http_get_postprocess import *
-#import json
+import json
 
-print(BUNSYO_HTTP_GET)
 variables = Variable.get('BUNSYO_HTTP_GET',deserialize_json=True)
 print(variables)
 

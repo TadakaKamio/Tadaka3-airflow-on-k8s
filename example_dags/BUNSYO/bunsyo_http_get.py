@@ -16,7 +16,7 @@ from BUNSYO.bunsyo_http_get_postprocess import *
 import json
 
 
-variables = Variable.get('BUNSYO_HTTP_GET', deserialize_json=True)
+variables = Variable.get("BUNSYO_HTTP_GET", deserialize_json=True)
 print(variables)
 
 #cpu_limit_value = variables["cpu_limit"]
@@ -25,7 +25,7 @@ print(variables)
 #print(f"cpu_limit: {cpu_limit}, memory_limit: {memory_limit}")
 
 # DAGのスペック設定
-cpu_req = cpu_lim = variables.get('cpu_limit') # 480m
+cpu_req = cpu_lim = variables.get("cpu_limit") # 480m
 ram_req = ram_lim = variables.get('memory_limit') # 3G
 
 pod_config = {

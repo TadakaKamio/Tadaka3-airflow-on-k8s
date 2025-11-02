@@ -1,5 +1,5 @@
 {
-	"cpu_limit": "480",
+	"cpu_limit": "480m",
 	"memory_limit": "3G",
 	"schedule_interval": "0 21 * * *",
 	"method": "PROPFIND",

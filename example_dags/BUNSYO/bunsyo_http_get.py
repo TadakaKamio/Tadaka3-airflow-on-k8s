@@ -17,7 +17,7 @@ import json
 
 
 #variables = Variable.get("BUNSYO_HTTP_GET", deserialize_json=True)
-variables = Variable.get("BUNSYO/conf/HTTP_GET/variables_for_DEV.json", deserialize_json=True)
+variables = Variable.get("variables_for_DEV.json", deserialize_json=True)
 #print(variables["cpu_limit"])
 print(dir(variables))
 

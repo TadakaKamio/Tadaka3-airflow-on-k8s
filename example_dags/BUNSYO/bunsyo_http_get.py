@@ -17,7 +17,7 @@ import json
 
 
 variables = Variable.get("BUNSYO_HTTP_GET", deserialize_json=True)
-print(variables["cpu_limit"])
+#print(variables["cpu_limit"])
 
 #cpu_limit_value = variables["cpu_limit"]
 #memory_limit_value = variables["memory_limit"]

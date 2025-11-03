@@ -13,12 +13,12 @@ from urllib.parse import unquote
 from BUNSYO.logger import logger
 from BUNSYO.bunsyo_http_get_preprocess import *
 from BUNSYO.bunsyo_http_get_postprocess import *
-import json
+#import json
 
 
 variables = Variable.get('BUNSYO_HTTP_GET', deserialize_json=True)
-print(variables["cpu_limit"])
-print(dir(variables))
+#print(variables["cpu_limit"])
+#print(dir(variables))
 
 #cpu_limit_value = variables["cpu_limit"]
 #memory_limit_value = variables["memory_limit"]
@@ -231,7 +231,6 @@ dag = DAG(
     description='BUNSYO_HTTP_GET',
     schedule_interval=schedule if bool(schedule) else None,
     catchup=False,
-    render_template_as_native_obj=True,
 )
 
 # task #############################

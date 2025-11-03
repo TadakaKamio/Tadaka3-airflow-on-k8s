@@ -231,6 +231,7 @@ dag = DAG(
     description='BUNSYO_HTTP_GET',
     schedule_interval=schedule if bool(schedule) else None,
     catchup=False,
+    render_template_as_native_obj=True,
 )
 
 # task #############################

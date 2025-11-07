@@ -1,0 +1,2289 @@
+{
+    "POSITIVE_HRMOS_CREATE": {
+        "cpu_limit": "500m",
+        "create_dm_table_script_file": [],
+        "create_dwh_table_script_file": [],
+        "create_lake_table_script_file": [],
+        "database_name": "hrpf",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "dm_location_path": "hdfs:///HRPF/volume7/pohr_dm/",
+        "dwh_location_path": "hdfs:///HRPF/volume7/hrpf_dwh/",
+        "lake_location_path": "hdfs:///HRPF/volume7/hrpf_lake/",
+        "memory_limit": "3G",
+        "remote_dir": "/home/mapr/script/airflow/HRPF/positive_hrmos_create/"
+    },
+    "POSITIVE_HRMOS_CREATE_2": {
+        "cpu_limit": "500m",
+        "create_dm_table_script_file": [
+            "create_table_POHR_001_DM.py"
+        ],
+        "create_dwh_table_script_file": [
+            "create_table_HRPF_001_DWH.py"
+        ],
+        "create_lake_table_script_file": [
+            "create_table_HRPF_001_LAKE.py"
+        ],
+        "database_name": "hrpf_2",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "dm_location_path": "dtap://HRPF/volume7/2/pohr_dm/",
+        "dwh_location_path": "dtap://HRPF/volume7/2/hrpf_dwh/",
+        "lake_location_path": "dtap://HRPF/volume7/2/hrpf_lake/",
+        "memory_limit": "3G",
+        "remote_dir": "/home/mapr/script/airflow/HRPF/positive_hrmos_create/"
+    },
+    "POSITIVE_HRMOS_CREATE_3": {
+        "cpu_limit": "500m",
+        "create_dm_table_script_file": [
+            "create_table_POHR_001_DM.py"
+        ],
+        "create_dwh_table_script_file": [
+            "create_table_HRPF_001_DWH.py"
+        ],
+        "create_lake_table_script_file": [
+            "create_table_HRPF_001_LAKE.py"
+        ],
+        "database_name": "hrpf_3",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "dm_location_path": "hdfs:///HRPF/volume7/3/pohr_dm/",
+        "dwh_location_path": "hdfs:///HRPF/volume7/3/hrpf_dwh/",
+        "lake_location_path": "hdfs:///HRPF/volume7/3/hrpf_lake/",
+        "memory_limit": "3G",
+        "remote_dir": "/home/mapr/script/airflow/HRPF/positive_hrmos_create/"
+    },
+    "POSITIVE_HRMOS_CREATE_4": {
+        "cpu_limit": "500m",
+        "create_dm_table_script_file": [
+            "create_table_POHR_001_DM.py"
+        ],
+        "create_dwh_table_script_file": [
+            "create_table_HRPF_001_DWH.py"
+        ],
+        "create_lake_table_script_file": [
+            "create_table_HRPF_001_LAKE.py"
+        ],
+        "database_name": "hrpf_4",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "dm_location_path": "dtap://HRPF/volume7/4/pohr_dm/",
+        "dwh_location_path": "dtap://HRPF/volume7/4/hrpf_dwh/",
+        "lake_location_path": "dtap://HRPF/volume7/4/hrpf_lake/",
+        "memory_limit": "3G",
+        "remote_dir": "/home/mapr/script/airflow/HRPF/positive_hrmos_create/"
+    },
+    "POSITIVE_HRMOS_CREATE_5": {
+        "cpu_limit": "500m",
+        "create_dm_table_script_file": [
+            "create_table_POHR_001_DM.py"
+        ],
+        "create_dwh_table_script_file": [
+            "create_table_HRPF_001_DWH.py"
+        ],
+        "create_lake_table_script_file": [
+            "create_table_HRPF_001_LAKE.py"
+        ],
+        "database_name": "hrpf",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "dm_location_path": "dtap://HRPF/volume7/5/pohr_dm/",
+        "dwh_location_path": "dtap://HRPF/volume7/5/hrpf_dwh/",
+        "lake_location_path": "dtap://HRPF/volume7/5/hrpf_lake/",
+        "memory_limit": "3G",
+        "remote_dir": "/home/mapr/script/airflow/HRPF/positive_hrmos_create/"
+    },
+    "POSITIVE_HRMOS_CREATE_6": {
+        "cpu_limit": "500m",
+        "create_dm_table_script_file": [
+            "create_table_POHR_001_DM.py"
+        ],
+        "create_dwh_table_script_file": [
+            "create_table_HRPF_001_DWH.py"
+        ],
+        "create_lake_table_script_file": [
+            "create_table_HRPF_001_LAKE.py"
+        ],
+        "database_name": "hrpf",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "dm_location_path": "dtap://HRPF/volume7/6/pohr_dm/",
+        "dwh_location_path": "dtap://HRPF/volume7/6/hrpf_dwh/",
+        "lake_location_path": "dtap://HRPF/volume7/6/hrpf_lake/",
+        "memory_limit": "3G",
+        "remote_dir": "/home/mapr/script/airflow/HRPF/positive_hrmos_create/"
+    },
+    "POSITIVE_HRMOS_INSERT": {
+        "chunk_size": 65536,
+        "cpu_limit": "480m",
+        "database_name": "hrpf_1",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "dtap_path": "dtap://HRPF",
+        "file_table_mapping": {
+            "HRPF_00_\u30a2\u30ab\u30a6\u30f3\u30c8\u68da\u5378\u7528": "hrpf_000_lake",
+            "HRPF_00a_\u4eba\u4e8b\u6240\u5c5e\u30fb\u5f79\u8077\u30fb\u51fa\u5411\u30fb\u4f11\u8077(\u57fa\u6e96\u65e5)": "hrpf_00a_lake",
+            "HRPF_00b_\u4eba\u4e8b\u6240\u5c5e(\u57fa\u6e96\u65e5)": "hrpf_00b_lake",
+            "HRPF_00c_\u5f79\u8077(\u57fa\u6e96\u65e5)": "hrpf_00c_lake",
+            "HRPF_00d_\u51fa\u5411(\u57fa\u6e96\u65e5)": "hrpf_00d_lake",
+            "HRPF_00e_\u4f11\u8077(\u57fa\u6e96\u65e5)": "hrpf_00e_lake",
+            "HRPF_00f_\u7d44\u7e54\u56f3\u30c7\u30fc\u30bf": "hrpf_00f_lake",
+            "HRPF_00g_\u30bf\u30ec\u30de\u30cd\u30c4\u30fc\u30eb": "hrpf_00g_lake",
+            "HRPF_01_\u57fa\u672c": "hrpf_001_lake",
+            "HRPF_02_\u4eba\u4e8b\u57fa\u672c\u60c5\u5831": "hrpf_002_lake"
+        },
+        "lake_backup_path": "/volume1/3/bk",
+        "lake_location": "/volume7/3/hrpf_lake",
+        "max_workers": 5,
+        "memory_limit": "3G",
+        "objectstore_conf": {
+            "aws_access_key_id": "OZ1K7CLN0LK9KW8IDE5G29RCTBT23GHY8YTWACCSZSA8JABRL4621OJSZ5ZW1C2PBGJ2QPDTTZ6YRN2A7EWZFYTJLV7TF3B33COT4UL7SR57ZL6DJY3S501",
+            "aws_secret_access_key": "H18Z77B75BB4YTWSUCMP6LWC",
+            "bucket": "hrpf-objectstore",
+            "endpoint_url": "https://datafabric01.datahub.local:9000",
+            "prefix": "3"
+        },
+        "remote_dir": "/home/mapr/script/airflow/HRPF/positive_hrmos_insert/script",
+        "spark_script_file": [
+            "insert_HRPF_001.py"
+        ],
+        "src_path": "/volume1/3"
+    },
+    "POSITIVE_HRMOS_INSERT1": {
+        "chunk_size": 65536,
+        "cpu_limit": "1000m",
+        "database_name": "hrpf_1",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "dtap_path": "dtap://HRPF",
+        "errorlist_path": "/mapr/df-cluster01.datahub.local/HRPF/volume7/1/error_list",
+        "file_table_mapping": {
+            "HRPF_00_\u30a2\u30ab\u30a6\u30f3\u30c8\u68da\u5378\u7528": "hrpf_000_lake",
+            "HRPF_00a_\u4eba\u4e8b\u6240\u5c5e\u30fb\u5f79\u8077\u30fb\u51fa\u5411\u30fb\u4f11\u8077(\u57fa\u6e96\u65e5)": "hrpf_00a_lake",
+            "HRPF_00b_\u4eba\u4e8b\u6240\u5c5e(\u57fa\u6e96\u65e5)": "hrpf_00b_lake",
+            "HRPF_00c_\u5f79\u8077(\u57fa\u6e96\u65e5)": "hrpf_00c_lake",
+            "HRPF_00d_\u51fa\u5411(\u57fa\u6e96\u65e5)": "hrpf_00d_lake",
+            "HRPF_00e_\u4f11\u8077(\u57fa\u6e96\u65e5)": "hrpf_00e_lake",
+            "HRPF_01_\u57fa\u672c": "hrpf_001_lake",
+            "HRPF_02_\u4eba\u4e8b\u57fa\u672c\u60c5\u5831": "hrpf_002_lake",
+            "HRPF_03_\u96c7\u7528\u533a\u5206\u6b74": "hrpf_003_lake",
+            "HRPF_04_\u793e\u54e1\u533a\u5206\u6b74": "hrpf_004_lake",
+            "HRPF_05_\u4eba\u8ca1\u7ba1\u7406\u7b87\u6240\u6b74": "hrpf_005_lake",
+            "HRPF_06_\u4f4f\u6240\u6b74": "hrpf_006_lake",
+            "HRPF_07_\u4eba\u4e8b\u6240\u5c5e\u6b74": "hrpf_007_lake",
+            "HRPF_08_\u5f79\u8077\u6b74": "hrpf_008_lake",
+            "HRPF_09_\u8077\u6b74": "hrpf_009_lake",
+            "HRPF_102_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf\u30b3\u30e1\u30f3\u30c8\u30d3\u30e5\u30fc": "hrpf_102_1_lake",
+            "HRPF_102_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf\u5e73\u5747\u5024\u30d3\u30e5\u30fc": "hrpf_102_2_lake",
+            "HRPF_105_\u7740\u4efb\u6b74": "hrpf_105_lake",
+            "HRPF_10_\u4f11\u8077\u6b74": "hrpf_010_lake",
+            "HRPF_11_\u51fa\u5411\u30fb\u6d3e\u9063\u53d7\u5165\u6b74": "hrpf_011_lake",
+            "HRPF_12_\u51fa\u5411\u6b74": "hrpf_012_lake",
+            "HRPF_14_\u7b49\u7d1a\u30fb\u533a\u5206\u6b74": "hrpf_014_lake",
+            "HRPF_16_\u7d44\u5408\u54e1\u533a\u5206\u6b74": "hrpf_016_lake",
+            "HRPF_17_\u7d44\u5408\u5c02\u5f93\u8005\u6b74": "hrpf_017_lake",
+            "HRPF_18_\u30df\u30c3\u30b7\u30e7\u30f3\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_018_1_lake",
+            "HRPF_18_\u77ed\u6642\u9593\u52e4\u52d9\u6b74": "hrpf_018_2_lake",
+            "HRPF_19_\u516c\u7684\u8cc7\u683c": "hrpf_019_lake",
+            "HRPF_20_\u4eba\u8ca1\u628a\u63e1\u6b74": "hrpf_020_lake",
+            "HRPF_21_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf": "hrpf_021_lake",
+            "HRPF_22_\uff21\u793e\u54e1\u52e4\u52d9\u5f62\u614b\u6b74": "hrpf_022_lake",
+            "HRPF_23_K\u4eba\u8ca1\u6b74": "hrpf_023_lake",
+            "HRPF_24_\uff2d\uff2d\u5bfe\u8c61\u6b74": "hrpf_024_lake",
+            "HRPF_25_TTM\u6b74": "hrpf_025_lake",
+            "HRPF_26_\u80b2\u6210\u5185\u5bb9\uff08\u56fa\u5b9a\u5e33\u7968\u7528\uff09\u30d3\u30e5\u30fc": "hrpf_026_lake",
+            "HRPF_27_\u5065\u5eb7\u7ba1\u7406\u63aa\u7f6e\u60c5\u5831": "hrpf_027_lake",
+            "HRPF_29_\u30b3\u30f3\u30d4\u30c6\u30f3\u30b7\u30fc\u6b74": "hrpf_029_lake",
+            "HRPF_30_\u30b8\u30e7\u30d6\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_030_lake",
+            "HRPF_31_\u4eba\u4e8b\u30b3\u30e1\u30f3\u30c8": "hrpf_031_lake",
+            "HRPF_32_\u30d1\u30fc\u30bd\u30ca\u30ea\u30c6\u30a3\u8a3a\u65ad\uff08\u4e0a\u53f8\u30b3\u30e1\u30f3\u30c8\uff09": "hrpf_032_lake",
+            "HRPF_33_\u30d1\u30fc\u30bd\u30ca\u30ea\u30c6\u30a3\u8a3a\u65ad\u7d50\u679c": "hrpf_033_lake",
+            "HRPF_34_\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_034_lake",
+            "HRPF_35_\u30d7\u30ed\u30d5\u30a7\u30c3\u30b7\u30e7\u30ca\u30eb\u6b74": "hrpf_035_lake",
+            "HRPF_36_\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u60c5\u5831": "hrpf_036_1_lake",
+            "HRPF_36_\u5b66\u6821": "hrpf_036_2_lake",
+            "HRPF_37_\u5b89\u5168\u6559\u80b2\u8cc7\u683c\uff08\u793e\u5185\uff09\u6b74": "hrpf_037_lake",
+            "HRPF_38_\u5b89\u5168\u6559\u80b2\u8cc7\u683c\uff08\u6cd5\u5b9a\uff09\u6b74": "hrpf_038_lake",
+            "HRPF_39_\u80b2\u6210\u8a08\u753b\u6b74": "hrpf_039_lake",
+            "HRPF_40_\u80b2\u6210\u9762\u8ac7\u6b74": "hrpf_040_lake",
+            "HRPF_41_\u55b6\u696d\u30ec\u30d9\u30eb\u8a8d\u5b9a\u6b74": "hrpf_041_lake",
+            "HRPF_42_\u5bb6\u65cf": "hrpf_042_lake",
+            "HRPF_43_\u5c31\u696d\u5f62\u614b\u6b74": "hrpf_043_lake",
+            "HRPF_44_\u7ba1\u7406\u8005\u7814\u4fee": "hrpf_044_lake",
+            "HRPF_45_\u7ba1\u7406\u8077\u4efb\u7528\u30a2\u30bb\u30b9\u6b74": "hrpf_045_lake",
+            "HRPF_46_\u7814\u4fee\u6559\u80b2\u6b74": "hrpf_046_lake",
+            "HRPF_47_\u73fe\u696d\u6280\u8853\u30fb\u6280\u80fd\u8a8d\u5b9a\u6b74": "hrpf_047_lake",
+            "HRPF_48_\u793e\u5185\u5b66\u6b74": "hrpf_048_lake",
+            "HRPF_49_\u91cd\u70b9C\u30a2\u30b5\u30a4\u30f3\u6b74": "hrpf_049_lake",
+            "HRPF_51_\u8eab\u4e0a\u8abf\u66f8": "hrpf_051_lake",
+            "HRPF_52_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80b2\u6210\u30ab\u30eb\u30c6\uff09": "hrpf_052_1_lake",
+            "HRPF_52_\u5631\u8a17\u8077\u7a2e\u533a\u5206\u6b74": "hrpf_052_2_lake",
+            "HRPF_53_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u78ba\u5b9a\u696d\u7e3e\u533a\u5206\uff09": "hrpf_053_lake",
+            "HRPF_58_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u5354\u50cd\u8ca2\u732e\u5ea6": "hrpf_058_1_lake",
+            "HRPF_58_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff11": "hrpf_058_2_lake",
+            "HRPF_59_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u7dcf\u5408\u8a55\u5b9a": "hrpf_059_1_lake",
+            "HRPF_59_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff12": "hrpf_059_2_lake",
+            "HRPF_60_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff13": "hrpf_060__1_lake",
+            "HRPF_61_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff14": "hrpf_061_1_lake",
+            "HRPF_61_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80fd\u529b\u8a55\u5b9a\u30fb\u6240\u898b\uff09": "hrpf_061_2_lake",
+            "HRPF_62_\u524d\u8077\u6b74": "hrpf_062_lake",
+            "HRPF_63_\u61f2\u6212\u6b74": "hrpf_063_lake",
+            "HRPF_64_\u8868\u5f70\u6b74": "hrpf_064_lake",
+            "HRPF_65_\u9023\u7d61\u5148": "hrpf_065_lake",
+            "test_file": "test_lake",
+            "\u30b9\u30da\u30b7\u30e3\u30ea\u30b9\u30c8\u6b74": "hrpf_107_lake",
+            "\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80fd\u529b\u8a55\u5b9a\uff09": "hrpf_060_2_lake"
+        },
+        "lake_backup_path": "/volume1/1/bk",
+        "lake_location": "/volume7/1/hrpf_lake",
+        "max_workers": 10,
+        "memory_limit": "5G",
+        "objectstore_conf": {
+            "aws_access_key_id": "OZ1K7CLN0LK9KW8IDE5G29RCTBT23GHY8YTWACCSZSA8JABRL4621OJSZ5ZW1C2PBGJ2QPDTTZ6YRN2A7EWZFYTJLV7TF3B33COT4UL7SR57ZL6DJY3S501",
+            "aws_secret_access_key": "H18Z77B75BB4YTWSUCMP6LWC",
+            "bucket": "hrpf-objectstore",
+            "endpoint_url": "https://datafabric01.datahub.local:9000",
+            "prefix": "1"
+        },
+        "remote_dir": "/home/mapr/script/airflow/HRPF/positive_hrmos_insert/script",
+        "spark_script_file": [
+            "insert_HRPF_001.py",
+            "insert_HRPF_012.py"
+        ],
+        "src_path": "/volume1/1"
+    },
+    "POSITIVE_HRMOS_INSERT2": {
+        "chunk_size": 65536,
+        "cpu_limit": "1000m",
+        "database_name": "hrpf_2",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "dtap_path": "dtap://HRPF",
+        "errorlist_path": "/mapr/df-cluster01.datahub.local/HRPF/volume7/2/error_list",
+        "file_table_mapping": {
+            "HRPF_00_\u30a2\u30ab\u30a6\u30f3\u30c8\u68da\u5378\u7528": "hrpf_000_lake",
+            "HRPF_00a_\u4eba\u4e8b\u6240\u5c5e\u30fb\u5f79\u8077\u30fb\u51fa\u5411\u30fb\u4f11\u8077(\u57fa\u6e96\u65e5)": "hrpf_00a_lake",
+            "HRPF_00b_\u4eba\u4e8b\u6240\u5c5e(\u57fa\u6e96\u65e5)": "hrpf_00b_lake",
+            "HRPF_00c_\u5f79\u8077(\u57fa\u6e96\u65e5)": "hrpf_00c_lake",
+            "HRPF_00d_\u51fa\u5411(\u57fa\u6e96\u65e5)": "hrpf_00d_lake",
+            "HRPF_00e_\u4f11\u8077(\u57fa\u6e96\u65e5)": "hrpf_00e_lake",
+            "HRPF_01_\u57fa\u672c": "hrpf_001_lake",
+            "HRPF_02_\u4eba\u4e8b\u57fa\u672c\u60c5\u5831": "hrpf_002_lake",
+            "HRPF_03_\u96c7\u7528\u533a\u5206\u6b74": "hrpf_003_lake",
+            "HRPF_04_\u793e\u54e1\u533a\u5206\u6b74": "hrpf_004_lake",
+            "HRPF_05_\u4eba\u8ca1\u7ba1\u7406\u7b87\u6240\u6b74": "hrpf_005_lake",
+            "HRPF_06_\u4f4f\u6240\u6b74": "hrpf_006_lake",
+            "HRPF_07_\u4eba\u4e8b\u6240\u5c5e\u6b74": "hrpf_007_lake",
+            "HRPF_08_\u5f79\u8077\u6b74": "hrpf_008_lake",
+            "HRPF_09_\u8077\u6b74": "hrpf_009_lake",
+            "HRPF_102_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf\u30b3\u30e1\u30f3\u30c8\u30d3\u30e5\u30fc": "hrpf_102_1_lake",
+            "HRPF_102_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf\u5e73\u5747\u5024\u30d3\u30e5\u30fc": "hrpf_102_2_lake",
+            "HRPF_105_\u7740\u4efb\u6b74": "hrpf_105_lake",
+            "HRPF_10_\u4f11\u8077\u6b74": "hrpf_010_lake",
+            "HRPF_11_\u51fa\u5411\u30fb\u6d3e\u9063\u53d7\u5165\u6b74": "hrpf_011_lake",
+            "HRPF_12_\u51fa\u5411\u6b74": "hrpf_012_lake",
+            "HRPF_14_\u7b49\u7d1a\u30fb\u533a\u5206\u6b74": "hrpf_014_lake",
+            "HRPF_16_\u7d44\u5408\u54e1\u533a\u5206\u6b74": "hrpf_016_lake",
+            "HRPF_17_\u7d44\u5408\u5c02\u5f93\u8005\u6b74": "hrpf_017_lake",
+            "HRPF_18_\u30df\u30c3\u30b7\u30e7\u30f3\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_018_1_lake",
+            "HRPF_18_\u77ed\u6642\u9593\u52e4\u52d9\u6b74": "hrpf_018_2_lake",
+            "HRPF_19_\u516c\u7684\u8cc7\u683c": "hrpf_019_lake",
+            "HRPF_20_\u4eba\u8ca1\u628a\u63e1\u6b74": "hrpf_020_lake",
+            "HRPF_21_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf": "hrpf_021_lake",
+            "HRPF_22_\uff21\u793e\u54e1\u52e4\u52d9\u5f62\u614b\u6b74": "hrpf_022_lake",
+            "HRPF_23_K\u4eba\u8ca1\u6b74": "hrpf_023_lake",
+            "HRPF_24_\uff2d\uff2d\u5bfe\u8c61\u6b74": "hrpf_024_lake",
+            "HRPF_25_TTM\u6b74": "hrpf_025_lake",
+            "HRPF_26_\u80b2\u6210\u5185\u5bb9\uff08\u56fa\u5b9a\u5e33\u7968\u7528\uff09\u30d3\u30e5\u30fc": "hrpf_026_lake",
+            "HRPF_27_\u5065\u5eb7\u7ba1\u7406\u63aa\u7f6e\u60c5\u5831": "hrpf_027_lake",
+            "HRPF_29_\u30b3\u30f3\u30d4\u30c6\u30f3\u30b7\u30fc\u6b74": "hrpf_029_lake",
+            "HRPF_30_\u30b8\u30e7\u30d6\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_030_lake",
+            "HRPF_31_\u4eba\u4e8b\u30b3\u30e1\u30f3\u30c8": "hrpf_031_lake",
+            "HRPF_32_\u30d1\u30fc\u30bd\u30ca\u30ea\u30c6\u30a3\u8a3a\u65ad\uff08\u4e0a\u53f8\u30b3\u30e1\u30f3\u30c8\uff09": "hrpf_032_lake",
+            "HRPF_33_\u30d1\u30fc\u30bd\u30ca\u30ea\u30c6\u30a3\u8a3a\u65ad\u7d50\u679c": "hrpf_033_lake",
+            "HRPF_34_\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_034_lake",
+            "HRPF_35_\u30d7\u30ed\u30d5\u30a7\u30c3\u30b7\u30e7\u30ca\u30eb\u6b74": "hrpf_035_lake",
+            "HRPF_36_\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u60c5\u5831": "hrpf_036_1_lake",
+            "HRPF_36_\u5b66\u6821": "hrpf_036_2_lake",
+            "HRPF_37_\u5b89\u5168\u6559\u80b2\u8cc7\u683c\uff08\u793e\u5185\uff09\u6b74": "hrpf_037_lake",
+            "HRPF_38_\u5b89\u5168\u6559\u80b2\u8cc7\u683c\uff08\u6cd5\u5b9a\uff09\u6b74": "hrpf_038_lake",
+            "HRPF_39_\u80b2\u6210\u8a08\u753b\u6b74": "hrpf_039_lake",
+            "HRPF_40_\u80b2\u6210\u9762\u8ac7\u6b74": "hrpf_040_lake",
+            "HRPF_41_\u55b6\u696d\u30ec\u30d9\u30eb\u8a8d\u5b9a\u6b74": "hrpf_041_lake",
+            "HRPF_42_\u5bb6\u65cf": "hrpf_042_lake",
+            "HRPF_43_\u5c31\u696d\u5f62\u614b\u6b74": "hrpf_043_lake",
+            "HRPF_44_\u7ba1\u7406\u8005\u7814\u4fee": "hrpf_044_lake",
+            "HRPF_45_\u7ba1\u7406\u8077\u4efb\u7528\u30a2\u30bb\u30b9\u6b74": "hrpf_045_lake",
+            "HRPF_46_\u7814\u4fee\u6559\u80b2\u6b74": "hrpf_046_lake",
+            "HRPF_47_\u73fe\u696d\u6280\u8853\u30fb\u6280\u80fd\u8a8d\u5b9a\u6b74": "hrpf_047_lake",
+            "HRPF_48_\u793e\u5185\u5b66\u6b74": "hrpf_048_lake",
+            "HRPF_49_\u91cd\u70b9C\u30a2\u30b5\u30a4\u30f3\u6b74": "hrpf_049_lake",
+            "HRPF_51_\u8eab\u4e0a\u8abf\u66f8": "hrpf_051_lake",
+            "HRPF_52_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80b2\u6210\u30ab\u30eb\u30c6\uff09": "hrpf_052_1_lake",
+            "HRPF_52_\u5631\u8a17\u8077\u7a2e\u533a\u5206\u6b74": "hrpf_052_2_lake",
+            "HRPF_53_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u78ba\u5b9a\u696d\u7e3e\u533a\u5206\uff09": "hrpf_053_lake",
+            "HRPF_58_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff11": "hrpf_058_2_lake",
+            "HRPF_59_HRPF_59_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff12": "hrpf_059_1_lake",
+            "HRPF_59_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff12": "hrpf_059_2_lake",
+            "HRPF_60_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff13": "hrpf_060__1_lake",
+            "HRPF_61_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff14": "hrpf_061_1_lake",
+            "HRPF_61_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80fd\u529b\u8a55\u5b9a\u30fb\u6240\u898b\uff09": "hrpf_061_2_lake",
+            "HRPF_62_\u524d\u8077\u6b74": "hrpf_062_lake",
+            "HRPF_63_\u61f2\u6212\u6b74": "hrpf_063_lake",
+            "HRPF_64_\u8868\u5f70\u6b74": "hrpf_064_lake",
+            "HRPF_65_\u9023\u7d61\u5148": "hrpf_065_lake",
+            "test_file": "test_lake",
+            "\u30b9\u30da\u30b7\u30e3\u30ea\u30b9\u30c8\u6b74": "hrpf_107_lake",
+            "\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80fd\u529b\u8a55\u5b9a\uff09": "hrpf_060_2_lake"
+        },
+        "lake_backup_path": "/volume1/2/bk",
+        "lake_location": "/volume7/2/hrpf_lake",
+        "max_workers": 10,
+        "memory_limit": "5G",
+        "objectstore_conf": {
+            "aws_access_key_id": "OZ1K7CLN0LK9KW8IDE5G29RCTBT23GHY8YTWACCSZSA8JABRL4621OJSZ5ZW1C2PBGJ2QPDTTZ6YRN2A7EWZFYTJLV7TF3B33COT4UL7SR57ZL6DJY3S501",
+            "aws_secret_access_key": "H18Z77B75BB4YTWSUCMP6LWC",
+            "bucket": "hrpf-objectstore",
+            "endpoint_url": "https://datafabric01.datahub.local:9000",
+            "prefix": "2"
+        },
+        "remote_dir": "/home/mapr/script/airflow/HRPF/positive_hrmos_insert/script",
+        "spark_script_file": [
+            "insert_HRPF_058_1.py",
+            "insert_HRPF_059_1.py"
+        ],
+        "src_path": "/volume1/2"
+    },
+    "POSITIVE_HRMOS_INSERT3": {
+        "chunk_size": 65536,
+        "cpu_limit": "500m",
+        "database_name": "hrpf_3",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "dtap_path": "dtap://HRPF",
+        "file_table_mapping": {
+            "HRPF_00_\u30a2\u30ab\u30a6\u30f3\u30c8\u68da\u5378\u7528": "hrpf_000_lake",
+            "HRPF_00a_\u4eba\u4e8b\u6240\u5c5e\u30fb\u5f79\u8077\u30fb\u51fa\u5411\u30fb\u4f11\u8077(\u57fa\u6e96\u65e5)": "hrpf_00a_lake",
+            "HRPF_00b_\u4eba\u4e8b\u6240\u5c5e(\u57fa\u6e96\u65e5)": "hrpf_00b_lake",
+            "HRPF_00c_\u5f79\u8077(\u57fa\u6e96\u65e5)": "hrpf_00c_lake",
+            "HRPF_00d_\u51fa\u5411(\u57fa\u6e96\u65e5)": "hrpf_00d_lake",
+            "HRPF_00e_\u4f11\u8077(\u57fa\u6e96\u65e5)": "hrpf_00e_lake",
+            "HRPF_00f_\u7d44\u7e54\u56f3\u30c7\u30fc\u30bf": "hrpf_00f_lake",
+            "HRPF_00g_\u30bf\u30ec\u30de\u30cd\u30c4\u30fc\u30eb": "hrpf_00g_lake",
+            "HRPF_01_\u57fa\u672c": "hrpf_001_lake",
+            "HRPF_02_\u4eba\u4e8b\u57fa\u672c\u60c5\u5831": "hrpf_002_lake",
+            "HRPF_03_\u96c7\u7528\u533a\u5206\u6b74": "hrpf_003_lake",
+            "HRPF_04_\u793e\u54e1\u533a\u5206\u6b74": "hrpf_004_lake",
+            "HRPF_05_\u4eba\u8ca1\u7ba1\u7406\u7b87\u6240\u6b74": "hrpf_005_lake",
+            "HRPF_06_\u4f4f\u6240\u6b74": "hrpf_006_lake",
+            "HRPF_07_\u4eba\u4e8b\u6240\u5c5e\u6b74": "hrpf_007_lake",
+            "HRPF_08_\u5f79\u8077\u6b74": "hrpf_008_lake",
+            "HRPF_09_\u8077\u6b74": "hrpf_009_lake",
+            "HRPF_102_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf\u30b3\u30e1\u30f3\u30c8\u30d3\u30e5\u30fc": "hrpf_102_1_lake",
+            "HRPF_102_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf\u5e73\u5747\u5024\u30d3\u30e5\u30fc": "hrpf_102_2_lake",
+            "HRPF_105_\u7740\u4efb\u6b74": "hrpf_105_lake",
+            "HRPF_107_\u30b9\u30da\u30b7\u30e3\u30ea\u30b9\u30c8\u6b74": "hrpf_107_lake",
+            "HRPF_10_\u4f11\u8077\u6b74": "hrpf_010_lake",
+            "HRPF_11_\u51fa\u5411\u30fb\u6d3e\u9063\u53d7\u5165\u6b74": "hrpf_011_lake",
+            "HRPF_12_\u51fa\u5411\u6b74": "hrpf_012_lake",
+            "HRPF_14_\u7b49\u7d1a\u30fb\u533a\u5206\u6b74": "hrpf_014_lake",
+            "HRPF_16_\u7d44\u5408\u54e1\u533a\u5206\u6b74": "hrpf_016_lake",
+            "HRPF_17_\u7d44\u5408\u5c02\u5f93\u8005\u6b74": "hrpf_017_lake",
+            "HRPF_18_\u30df\u30c3\u30b7\u30e7\u30f3\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_018_1_lake",
+            "HRPF_18_\u77ed\u6642\u9593\u52e4\u52d9\u6b74": "hrpf_018_2_lake",
+            "HRPF_19_\u516c\u7684\u8cc7\u683c": "hrpf_019_lake",
+            "HRPF_20_\u4eba\u8ca1\u628a\u63e1\u6b74": "hrpf_020_lake",
+            "HRPF_21_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf": "hrpf_021_lake",
+            "HRPF_22_\uff21\u793e\u54e1\u52e4\u52d9\u5f62\u614b\u6b74": "hrpf_022_lake",
+            "HRPF_23_K\u4eba\u8ca1\u6b74": "hrpf_023_lake",
+            "HRPF_24_\uff2d\uff2d\u5bfe\u8c61\u6b74": "hrpf_024_lake",
+            "HRPF_25_TTM\u6b74": "hrpf_025_lake",
+            "HRPF_26_\u80b2\u6210\u5185\u5bb9\uff08\u56fa\u5b9a\u5e33\u7968\u7528\uff09\u30d3\u30e5\u30fc": "hrpf_026_lake",
+            "HRPF_27_\u5065\u5eb7\u7ba1\u7406\u63aa\u7f6e\u60c5\u5831": "hrpf_027_lake",
+            "HRPF_29_\u30b3\u30f3\u30d4\u30c6\u30f3\u30b7\u30fc\u6b74": "hrpf_029_lake",
+            "HRPF_30_\u30b8\u30e7\u30d6\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_030_lake",
+            "HRPF_31_\u4eba\u4e8b\u30b3\u30e1\u30f3\u30c8": "hrpf_031_lake",
+            "HRPF_32_\u30d1\u30fc\u30bd\u30ca\u30ea\u30c6\u30a3\u8a3a\u65ad\uff08\u4e0a\u53f8\u30b3\u30e1\u30f3\u30c8\uff09": "hrpf_032_lake",
+            "HRPF_33_\u30d1\u30fc\u30bd\u30ca\u30ea\u30c6\u30a3\u8a3a\u65ad\u7d50\u679c": "hrpf_033_lake",
+            "HRPF_34_\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_034_lake",
+            "HRPF_35_\u30d7\u30ed\u30d5\u30a7\u30c3\u30b7\u30e7\u30ca\u30eb\u6b74": "hrpf_035_lake",
+            "HRPF_36_\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u60c5\u5831": "hrpf_036_1_lake",
+            "HRPF_36_\u5b66\u6b74": "hrpf_036_2_lake",
+            "HRPF_37_\u5b89\u5168\u6559\u80b2\u8cc7\u683c\uff08\u793e\u5185\uff09\u6b74": "hrpf_037_lake",
+            "HRPF_38_\u5b89\u5168\u6559\u80b2\u8cc7\u683c\uff08\u793e\u5185\uff09\u6b74": "hrpf_038_lake",
+            "HRPF_39_\u80b2\u6210\u8a08\u753b\u6b74": "hrpf_039_lake",
+            "HRPF_40_\u80b2\u6210\u9762\u8ac7\u6b74": "hrpf_040_lake",
+            "HRPF_41_\u55b6\u696d\u30ec\u30d9\u30eb\u8a8d\u5b9a\u6b74": "hrpf_041_lake",
+            "HRPF_42_\u5bb6\u65cf": "hrpf_042_lake",
+            "HRPF_43_\u5c31\u696d\u5f62\u614b\u6b74": "hrpf_043_lake",
+            "HRPF_44_\u7ba1\u7406\u8005\u7814\u4fee": "hrpf_044_lake",
+            "HRPF_45_\u7ba1\u7406\u8077\u4efb\u7528\u30a2\u30bb\u30b9\u6b74": "hrpf_045_lake",
+            "HRPF_46_\u7814\u4fee\u6559\u80b2\u6b74": "hrpf_046_lake",
+            "HRPF_47_\u73fe\u696d\u6280\u8853\u30fb\u6280\u80fd\u8a8d\u5b9a\u6b74": "hrpf_047_lake",
+            "HRPF_48_\u793e\u5185\u5b66\u6b74": "hrpf_048_lake",
+            "HRPF_49_\u91cd\u70b9C\u30a2\u30b5\u30a4\u30f3\u6b74": "hrpf_049_lake",
+            "HRPF_51_\u8eab\u4e0a\u8abf\u66f8": "hrpf_051_lake",
+            "HRPF_52_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80b2\u6210\u30ab\u30eb\u30c6\uff09": "hrpf_052_2_lake",
+            "HRPF_52_\u5631\u8a17\u8077\u7a2e\u533a\u5206\u6b74": "hrpf_052_1_lake",
+            "HRPF_53_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u78ba\u5b9a\u696d\u7e3e\u533a\u5206\uff09": "hrpf_053_lake",
+            "HRPF_58_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u5354\u50cd\u8ca2\u732e\u5ea6": "hrpf_058_2_lake",
+            "HRPF_58_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff11": "hrpf_058_1_lake",
+            "HRPF_59_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u7dcf\u5408\u8a55\u5b9a": "hrpf_059_2_lake",
+            "HRPF_59_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff12": "hrpf_059_1_lake",
+            "HRPF_60_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff13": "hrpf_060_1_lake",
+            "HRPF_60_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80fd\u529b\u8a55\u5b9a\uff09": "hrpf_060_2_lake",
+            "HRPF_61_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff14": "hrpf_061_1_lake",
+            "HRPF_61_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80fd\u529b\u8a55\u5b9a\u30fb\u6240\u898b\uff09": "hrpf_061_2_lake",
+            "HRPF_62_\u524d\u8077\u6b74": "hrpf_062_lake",
+            "HRPF_63_\u61f2\u6212\u6b74": "hrpf_063_lake",
+            "HRPF_64_\u8868\u5f70\u6b74": "hrpf_064_lake",
+            "HRPF_65_\u9023\u7d61\u5148": "hrpf_065_lake"
+        },
+        "lake_backup_path": "/volume1/3/bk",
+        "lake_location": "/volume7/3/hrpf_lake",
+        "max_workers": 5,
+        "memory_limit": "3G",
+        "objectstore_conf": {
+            "aws_access_key_id": "OZ1K7CLN0LK9KW8IDE5G29RCTBT23GHY8YTWACCSZSA8JABRL4621OJSZ5ZW1C2PBGJ2QPDTTZ6YRN2A7EWZFYTJLV7TF3B33COT4UL7SR57ZL6DJY3S501",
+            "aws_secret_access_key": "H18Z77B75BB4YTWSUCMP6LWC",
+            "bucket": "hrpf-objectstore",
+            "endpoint_url": "https://datafabric01.datahub.local:9000",
+            "prefix": "3"
+        },
+        "remote_dir": "/home/mapr/script/airflow/HRPF/positive_hrmos_insert/script",
+        "spark_script_file": [],
+        "src_path": "/volume1/3"
+    },
+    "POSITIVE_HRMOS_INSERT4": {
+        "chunk_size": 65536,
+        "cpu_limit": "1000m",
+        "database_name": "hrpf_4",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "dtap_path": "dtap://HRPF",
+        "errorlist_path": "/mapr/df-cluster01.datahub.local/HRPF/volume7/4/error_list",
+        "file_table_mapping": {
+            "HRPF_00_\u30a2\u30ab\u30a6\u30f3\u30c8\u68da\u5378\u7528": "hrpf_000_lake",
+            "HRPF_00a_\u4eba\u4e8b\u6240\u5c5e\u30fb\u5f79\u8077\u30fb\u51fa\u5411\u30fb\u4f11\u8077(\u57fa\u6e96\u65e5)": "hrpf_00a_lake",
+            "HRPF_00b_\u4eba\u4e8b\u6240\u5c5e(\u57fa\u6e96\u65e5)": "hrpf_00b_lake",
+            "HRPF_00c_\u5f79\u8077(\u57fa\u6e96\u65e5)": "hrpf_00c_lake",
+            "HRPF_00d_\u51fa\u5411(\u57fa\u6e96\u65e5)": "hrpf_00d_lake",
+            "HRPF_00e_\u4f11\u8077(\u57fa\u6e96\u65e5)": "hrpf_00e_lake",
+            "HRPF_00f_\u7d44\u7e54\u30c7\u30fc\u30bf": "hrpf_00f_lake",
+            "HRPF_00g_\u30bf\u30ec\u30de\u30cd\u30c4\u30fc\u30eb": "hrpf_00g_lake",
+            "HRPF_01_\u57fa\u672c": "hrpf_001_lake",
+            "HRPF_02_\u4eba\u4e8b\u57fa\u672c\u60c5\u5831": "hrpf_002_lake",
+            "HRPF_03_\u96c7\u7528\u533a\u5206\u6b74": "hrpf_003_lake",
+            "HRPF_04_\u793e\u54e1\u533a\u5206\u6b74": "hrpf_004_lake",
+            "HRPF_05_\u4eba\u8ca1\u7ba1\u7406\u7b87\u6240\u6b74": "hrpf_005_lake",
+            "HRPF_06_\u4f4f\u6240\u6b74": "hrpf_006_lake",
+            "HRPF_07_\u4eba\u4e8b\u6240\u5c5e\u6b74": "hrpf_007_lake",
+            "HRPF_08_\u5f79\u8077\u6b74": "hrpf_008_lake",
+            "HRPF_09_\u8077\u6b74": "hrpf_009_lake",
+            "HRPF_102_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf\u30b3\u30e1\u30f3\u30c8\u30d3\u30e5\u30fc": "hrpf_102_1_lake",
+            "HRPF_102_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf\u5e73\u5747\u5024\u30d3\u30e5\u30fc": "hrpf_102_2_lake",
+            "HRPF_105_\u7740\u4efb\u6b74": "hrpf_105_lake",
+            "HRPF_10_\u4f11\u8077\u6b74": "hrpf_010_lake",
+            "HRPF_11_\u51fa\u5411\u30fb\u6d3e\u9063\u53d7\u5165\u6b74": "hrpf_011_lake",
+            "HRPF_12_\u51fa\u5411\u6b74": "hrpf_012_lake",
+            "HRPF_14_\u7b49\u7d1a\u30fb\u533a\u5206\u6b74": "hrpf_014_lake",
+            "HRPF_16_\u7d44\u5408\u54e1\u533a\u5206\u6b74": "hrpf_016_lake",
+            "HRPF_17_\u7d44\u5408\u5c02\u5f93\u8005\u6b74": "hrpf_017_lake",
+            "HRPF_18_\u30df\u30c3\u30b7\u30e7\u30f3\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_018_1_lake",
+            "HRPF_18_\u77ed\u6642\u9593\u52e4\u52d9\u6b74": "hrpf_018_2_lake",
+            "HRPF_19_\u516c\u7684\u8cc7\u683c": "hrpf_019_lake",
+            "HRPF_20_\u4eba\u8ca1\u628a\u63e1\u6b74": "hrpf_020_lake",
+            "HRPF_21_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf": "hrpf_021_lake",
+            "HRPF_22_\uff21\u793e\u54e1\u52e4\u52d9\u5f62\u614b\u6b74": "hrpf_022_lake",
+            "HRPF_23_K\u4eba\u8ca1\u6b74": "hrpf_023_lake",
+            "HRPF_24_\uff2d\uff2d\u5bfe\u8c61\u6b74": "hrpf_024_lake",
+            "HRPF_25_TTM\u6b74": "hrpf_025_lake",
+            "HRPF_26_\u80b2\u6210\u5185\u5bb9\uff08\u56fa\u5b9a\u5e33\u7968\u7528\uff09\u30d3\u30e5\u30fc": "hrpf_026_lake",
+            "HRPF_27_\u5065\u5eb7\u7ba1\u7406\u63aa\u7f6e\u60c5\u5831": "hrpf_027_lake",
+            "HRPF_29_\u30b3\u30f3\u30d4\u30c6\u30f3\u30b7\u30fc\u6b74": "hrpf_029_lake",
+            "HRPF_30_\u30b8\u30e7\u30d6\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_030_lake",
+            "HRPF_31_\u4eba\u4e8b\u30b3\u30e1\u30f3\u30c8": "hrpf_031_lake",
+            "HRPF_32_\u30d1\u30fc\u30bd\u30ca\u30ea\u30c6\u30a3\u8a3a\u65ad\uff08\u4e0a\u53f8\u30b3\u30e1\u30f3\u30c8\uff09": "hrpf_032_lake",
+            "HRPF_33_\u30d1\u30fc\u30bd\u30ca\u30ea\u30c6\u30a3\u8a3a\u65ad\u7d50\u679c": "hrpf_033_lake",
+            "HRPF_34_\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_034_lake",
+            "HRPF_35_\u30d7\u30ed\u30d5\u30a7\u30c3\u30b7\u30e7\u30ca\u30eb\u6b74": "hrpf_035_lake",
+            "HRPF_36_\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u60c5\u5831": "hrpf_036_1_lake",
+            "HRPF_36_\u5b66\u6821": "hrpf_036_2_lake",
+            "HRPF_37_\u5b89\u5168\u6559\u80b2\u8cc7\u683c\uff08\u793e\u5185\uff09\u6b74": "hrpf_037_lake",
+            "HRPF_38_\u5b89\u5168\u6559\u80b2\u8cc7\u683c\uff08\u6cd5\u5b9a\uff09\u6b74": "hrpf_038_lake",
+            "HRPF_39_\u80b2\u6210\u8a08\u753b\u6b74": "hrpf_039_lake",
+            "HRPF_40_\u80b2\u6210\u9762\u8ac7\u6b74": "hrpf_040_lake",
+            "HRPF_41_\u55b6\u696d\u30ec\u30d9\u30eb\u8a8d\u5b9a\u6b74": "hrpf_041_lake",
+            "HRPF_42_\u5bb6\u65cf": "hrpf_042_lake",
+            "HRPF_43_\u5c31\u696d\u5f62\u614b\u6b74": "hrpf_043_lake",
+            "HRPF_44_\u7ba1\u7406\u8005\u7814\u4fee": "hrpf_044_lake",
+            "HRPF_45_\u7ba1\u7406\u8077\u4efb\u7528\u30a2\u30bb\u30b9\u6b74": "hrpf_045_lake",
+            "HRPF_46_\u7814\u4fee\u6559\u80b2\u6b74": "hrpf_046_lake",
+            "HRPF_47_\u73fe\u696d\u6280\u8853\u30fb\u6280\u80fd\u8a8d\u5b9a\u6b74": "hrpf_047_lake",
+            "HRPF_48_\u793e\u5185\u5b66\u6b74": "hrpf_048_lake",
+            "HRPF_49_\u91cd\u70b9C\u30a2\u30b5\u30a4\u30f3\u6b74": "hrpf_049_lake",
+            "HRPF_51_\u8eab\u4e0a\u8abf\u66f8": "hrpf_051_lake",
+            "HRPF_52_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80b2\u6210\u30ab\u30eb\u30c6\uff09": "hrpf_052_2_lake",
+            "HRPF_52_\u5631\u8a17\u8077\u7a2e\u533a\u5206\u6b74": "hrpf_052_1_lake",
+            "HRPF_53_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u78ba\u5b9a\u696d\u7e3e\u533a\u5206\uff09": "hrpf_053_lake",
+            "HRPF_58_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u5354\u50cd\u8ca2\u732e\u5ea6": "hrpf_058_2_lake",
+            "HRPF_58_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff11": "hrpf_058_1_lake",
+            "HRPF_59_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u7dcf\u5408\u8a55\u5b9a": "hrpf_059_2_lake",
+            "HRPF_59_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff12": "hrpf_059_1_lake",
+            "HRPF_60_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff13": "hrpf_060_1_lake",
+            "HRPF_60_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80fd\u529b\u8a55\u5b9a\uff09": "hrpf_060_2_lake",
+            "HRPF_61_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff14": "hrpf_061_1_lake",
+            "HRPF_61_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80fd\u529b\u8a55\u5b9a\u30fb\u6240\u898b\uff09": "hrpf_061_2_lake",
+            "HRPF_62_\u524d\u8077\u6b74": "hrpf_062_lake",
+            "HRPF_63_\u61f2\u6212\u6b74": "hrpf_063_lake",
+            "HRPF_64_\u8868\u5f70\u6b74": "hrpf_064_lake",
+            "HRPF_65_\u9023\u7d61\u5148": "hrpf_065_lake",
+            "test_file": "test_lake",
+            "\u30b9\u30da\u30b7\u30e3\u30ea\u30b9\u30c8\u6b74": "hrpf_107_lake"
+        },
+        "lake_backup_path": "/volume1/4/bk",
+        "lake_location": "/volume7/4/hrpf_lake",
+        "max_workers": 10,
+        "memory_limit": "5G",
+        "objectstore_conf": {
+            "aws_access_key_id": "OZ1K7CLN0LK9KW8IDE5G29RCTBT23GHY8YTWACCSZSA8JABRL4621OJSZ5ZW1C2PBGJ2QPDTTZ6YRN2A7EWZFYTJLV7TF3B33COT4UL7SR57ZL6DJY3S501",
+            "aws_secret_access_key": "H18Z77B75BB4YTWSUCMP6LWC",
+            "bucket": "hrpf-objectstore",
+            "endpoint_url": "https://datafabric01.datahub.local:9000",
+            "prefix": "4"
+        },
+        "remote_dir": "/home/mapr/script/airflow/HRPF/positive_hrmos_insert/script",
+        "spark_script_file": [
+            "insert_HRPF_049.py"
+        ],
+        "src_path": "/volume1/4"
+    },
+    "POSITIVE_HRMOS_INSERT5": {
+        "chunk_size": 65536,
+        "cpu_limit": "1000m",
+        "database_name": "hrpf_5",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "dtap_path": "dtap://HRPF",
+        "errorlist_path": "/mapr/df-cluster01.datahub.local/HRPF/volume7/5/error_list",
+        "file_table_mapping": {
+            "HRPF_00_\u30a2\u30ab\u30a6\u30f3\u30c8\u68da\u5378\u7528": "hrpf_000_lake",
+            "HRPF_00a_\u4eba\u4e8b\u6240\u5c5e\u30fb\u5f79\u8077\u30fb\u51fa\u5411\u30fb\u4f11\u8077(\u57fa\u6e96\u65e5)": "hrpf_00a_lake",
+            "HRPF_00b_\u4eba\u4e8b\u6240\u5c5e(\u57fa\u6e96\u65e5)": "hrpf_00b_lake",
+            "HRPF_00c_\u5f79\u8077(\u57fa\u6e96\u65e5)": "hrpf_00c_lake",
+            "HRPF_00d_\u51fa\u5411(\u57fa\u6e96\u65e5)": "hrpf_00d_lake",
+            "HRPF_00e_\u4f11\u8077(\u57fa\u6e96\u65e5)": "hrpf_00e_lake",
+            "HRPF_00f_\u7d44\u7e54\u56f3\u30c7\u30fc\u30bf": "hrpf_00f_lake",
+            "HRPF_00g_\u30bf\u30ec\u30de\u30cd\u30c4\u30fc\u30eb": "hrpf_00g_lake",
+            "HRPF_01_\u57fa\u672c": "hrpf_001_lake",
+            "HRPF_02_\u4eba\u4e8b\u57fa\u672c\u60c5\u5831": "hrpf_002_lake",
+            "HRPF_03_\u96c7\u7528\u533a\u5206\u6b74": "hrpf_003_lake",
+            "HRPF_04_\u793e\u54e1\u533a\u5206\u6b74": "hrpf_004_lake",
+            "HRPF_05_\u4eba\u8ca1\u7ba1\u7406\u7b87\u6240\u6b74": "hrpf_005_lake",
+            "HRPF_06_\u4f4f\u6240\u6b74": "hrpf_006_lake",
+            "HRPF_07_\u4eba\u4e8b\u6240\u5c5e\u6b74": "hrpf_007_lake",
+            "HRPF_08_\u5f79\u8077\u6b74": "hrpf_008_lake",
+            "HRPF_09_\u8077\u6b74": "hrpf_009_lake",
+            "HRPF_102_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf\u30b3\u30e1\u30f3\u30c8\u30d3\u30e5\u30fc": "hrpf_102_1_lake",
+            "HRPF_102_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf\u5e73\u5747\u5024\u30d3\u30e5\u30fc": "hrpf_102_2_lake",
+            "HRPF_105_\u7740\u4efb\u6b74": "hrpf_105_lake",
+            "HRPF_107_\u30b9\u30da\u30b7\u30e3\u30ea\u30b9\u30c8\u6b74": "hrpf_107_lake",
+            "HRPF_10_\u4f11\u8077\u6b74": "hrpf_010_lake",
+            "HRPF_11_\u51fa\u5411\u30fb\u6d3e\u9063\u53d7\u5165\u6b74": "hrpf_011_lake",
+            "HRPF_12_\u51fa\u5411\u6b74": "hrpf_012_lake",
+            "HRPF_14_\u7b49\u7d1a\u30fb\u533a\u5206\u6b74": "hrpf_014_lake",
+            "HRPF_16_\u7d44\u5408\u54e1\u533a\u5206\u6b74": "hrpf_016_lake",
+            "HRPF_17_\u7d44\u5408\u5c02\u5f93\u8005\u6b74": "hrpf_017_lake",
+            "HRPF_18_\u30df\u30c3\u30b7\u30e7\u30f3\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_018_1_lake",
+            "HRPF_18_\u77ed\u6642\u9593\u52e4\u52d9\u6b74": "hrpf_018_2_lake",
+            "HRPF_19_\u516c\u7684\u8cc7\u683c": "hrpf_019_lake",
+            "HRPF_20_\u4eba\u8ca1\u628a\u63e1\u6b74": "hrpf_020_lake",
+            "HRPF_21_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf": "hrpf_021_lake",
+            "HRPF_22_\uff21\u793e\u54e1\u52e4\u52d9\u5f62\u614b\u6b74": "hrpf_022_lake",
+            "HRPF_23_K\u4eba\u8ca1\u6b74": "hrpf_023_lake",
+            "HRPF_24_\uff2d\uff2d\u5bfe\u8c61\u6b74": "hrpf_024_lake",
+            "HRPF_25_TTM\u6b74": "hrpf_025_lake",
+            "HRPF_26_\u80b2\u6210\u5185\u5bb9\uff08\u56fa\u5b9a\u5e33\u7968\u7528\uff09\u30d3\u30e5\u30fc": "hrpf_026_lake",
+            "HRPF_27_\u5065\u5eb7\u7ba1\u7406\u63aa\u7f6e\u60c5\u5831": "hrpf_027_lake",
+            "HRPF_29_\u30b3\u30f3\u30d4\u30c6\u30f3\u30b7\u30fc\u6b74": "hrpf_029_lake",
+            "HRPF_30_\u30b8\u30e7\u30d6\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_030_lake",
+            "HRPF_31_\u4eba\u4e8b\u30b3\u30e1\u30f3\u30c8": "hrpf_031_lake",
+            "HRPF_32_\u30d1\u30fc\u30bd\u30ca\u30ea\u30c6\u30a3\u8a3a\u65ad\uff08\u4e0a\u53f8\u30b3\u30e1\u30f3\u30c8\uff09": "hrpf_032_lake",
+            "HRPF_33_\u30d1\u30fc\u30bd\u30ca\u30ea\u30c6\u30a3\u8a3a\u65ad\u7d50\u679c": "hrpf_033_lake",
+            "HRPF_34_\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_034_lake",
+            "HRPF_35_\u30d7\u30ed\u30d5\u30a7\u30c3\u30b7\u30e7\u30ca\u30eb\u6b74": "hrpf_035_lake",
+            "HRPF_36_\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u60c5\u5831": "hrpf_036_1_lake",
+            "HRPF_36_\u5b66\u6b74": "hrpf_036_2_lake",
+            "HRPF_37_\u5b89\u5168\u6559\u80b2\u8cc7\u683c\uff08\u793e\u5185\uff09\u6b74": "hrpf_037_lake",
+            "HRPF_38_\u5b89\u5168\u6559\u80b2\u8cc7\u683c\uff08\u793e\u5185\uff09\u6b74": "hrpf_038_lake",
+            "HRPF_39_\u80b2\u6210\u8a08\u753b\u6b74": "hrpf_039_lake",
+            "HRPF_40_\u80b2\u6210\u9762\u8ac7\u6b74": "hrpf_040_lake",
+            "HRPF_41_\u55b6\u696d\u30ec\u30d9\u30eb\u8a8d\u5b9a\u6b74": "hrpf_041_lake",
+            "HRPF_42_\u5bb6\u65cf": "hrpf_042_lake",
+            "HRPF_43_\u5c31\u696d\u5f62\u614b\u6b74": "hrpf_043_lake",
+            "HRPF_44_\u7ba1\u7406\u8005\u7814\u4fee": "hrpf_044_lake",
+            "HRPF_45_\u7ba1\u7406\u8077\u4efb\u7528\u30a2\u30bb\u30b9\u6b74": "hrpf_045_lake",
+            "HRPF_46_\u7814\u4fee\u6559\u80b2\u6b74": "hrpf_046_lake",
+            "HRPF_47_\u73fe\u696d\u6280\u8853\u30fb\u6280\u80fd\u8a8d\u5b9a\u6b74": "hrpf_047_lake",
+            "HRPF_48_\u793e\u5185\u5b66\u6b74": "hrpf_048_lake",
+            "HRPF_49_\u91cd\u70b9C\u30a2\u30b5\u30a4\u30f3\u6b74": "hrpf_049_lake",
+            "HRPF_51_\u8eab\u4e0a\u8abf\u66f8": "hrpf_051_lake",
+            "HRPF_52_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80b2\u6210\u30ab\u30eb\u30c6\uff09": "hrpf_052_1_lake",
+            "HRPF_52_\u5631\u8a17\u8077\u7a2e\u533a\u5206\u6b74": "hrpf_052_2_lake",
+            "HRPF_53_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u78ba\u5b9a\u696d\u7e3e\u533a\u5206\uff09": "hrpf_053_lake",
+            "HRPF_58_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u5354\u50cd\u8ca2\u732e\u5ea6": "hrpf_058_2_lake",
+            "HRPF_59_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u7dcf\u5408\u8a55\u5b9a": "hrpf_059_2_lake",
+            "HRPF_60_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff14": "hrpf_060_1_lake",
+            "HRPF_60_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80fd\u529b\u8a55\u5b9a\uff09": "hrpf_060_2_lake",
+            "HRPF_61_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff14": "hrpf_061_1_lake",
+            "HRPF_61_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80fd\u529b\u8a55\u5b9a\u30fb\u6240\u898b\uff09": "hrpf_061_2_lake",
+            "HRPF_62_\u524d\u8077\u6b74": "hrpf_062_lake",
+            "HRPF_63_\u61f2\u6212\u6b74": "hrpf_063_lake",
+            "HRPF_64_\u8868\u5f70\u6b74": "hrpf_064_lake",
+            "HRPF_65_\u9023\u7d61\u5148": "hrpf_065_lake",
+            "test_file": "test_lake",
+            "\u30b9\u30da\u30b7\u30e3\u30ea\u30b9\u30c8\u6b74": "hrpf_107_lake",
+            "\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80fd\u529b\u8a55\u5b9a\uff09": "hrpf_060_2_lake"
+        },
+        "lake_backup_path": "/volume1/5/bk",
+        "lake_location": "/volume7/5/hrpf_lake",
+        "max_workers": 10,
+        "memory_limit": "5G",
+        "objectstore_conf": {
+            "aws_access_key_id": "OZ1K7CLN0LK9KW8IDE5G29RCTBT23GHY8YTWACCSZSA8JABRL4621OJSZ5ZW1C2PBGJ2QPDTTZ6YRN2A7EWZFYTJLV7TF3B33COT4UL7SR57ZL6DJY3S501",
+            "aws_secret_access_key": "H18Z77B75BB4YTWSUCMP6LWC",
+            "bucket": "hrpf-objectstore",
+            "endpoint_url": "https://datafabric01.datahub.local:9000",
+            "prefix": "5"
+        },
+        "remote_dir": "/home/mapr/script/airflow/HRPF/positive_hrmos_insert/script",
+        "spark_script_file": [
+            "insert_HRPF_001.py"
+        ],
+        "src_path": "/volume1/5"
+    },
+    "POSITIVE_HRMOS_INSERT6": {
+        "chunk_size": 65536,
+        "cpu_limit": "1000m",
+        "database_name": "hrpf_6",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "dtap_path": "dtap://HRPF",
+        "errorlist_path": "/mapr/df-cluster01.datahub.local/HRPF/volume7/6/error_list",
+        "file_table_mapping": {
+            "HRPF_00_\u30a2\u30ab\u30a6\u30f3\u30c8\u68da\u5378\u7528": "hrpf_000_lake",
+            "HRPF_00a_\u4eba\u4e8b\u6240\u5c5e\u30fb\u5f79\u8077\u30fb\u51fa\u5411\u30fb\u4f11\u8077(\u57fa\u6e96\u65e5)": "hrpf_00a_lake",
+            "HRPF_00b_\u4eba\u4e8b\u6240\u5c5e(\u57fa\u6e96\u65e5)": "hrpf_00b_lake",
+            "HRPF_00c_\u5f79\u8077(\u57fa\u6e96\u65e5)": "hrpf_00c_lake",
+            "HRPF_00d_\u51fa\u5411(\u57fa\u6e96\u65e5)": "hrpf_00d_lake",
+            "HRPF_00e_\u4f11\u8077(\u57fa\u6e96\u65e5)": "hrpf_00e_lake",
+            "HRPF_00f_\u7d44\u7e54\u56f3\u30c7\u30fc\u30bf": "hrpf_00f_lake",
+            "HRPF_00g_\u30bf\u30ec\u30de\u30cd\u30c4\u30fc\u30eb": "hrpf_00g_lake",
+            "HRPF_01_\u57fa\u672c": "hrpf_001_lake",
+            "HRPF_02_\u4eba\u4e8b\u57fa\u672c\u60c5\u5831": "hrpf_002_lake",
+            "HRPF_03_\u96c7\u7528\u533a\u5206\u6b74": "hrpf_003_lake",
+            "HRPF_04_\u793e\u54e1\u533a\u5206\u6b74": "hrpf_004_lake",
+            "HRPF_05_\u4eba\u8ca1\u7ba1\u7406\u7b87\u6240\u6b74": "hrpf_005_lake",
+            "HRPF_06_\u4f4f\u6240\u6b74": "hrpf_006_lake",
+            "HRPF_07_\u4eba\u4e8b\u6240\u5c5e\u6b74": "hrpf_007_lake",
+            "HRPF_08_\u5f79\u8077\u6b74": "hrpf_008_lake",
+            "HRPF_09_\u8077\u6b74": "hrpf_009_lake",
+            "HRPF_102_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf\u30b3\u30e1\u30f3\u30c8\u30d3\u30e5\u30fc": "hrpf_102_1_lake",
+            "HRPF_102_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf\u5e73\u5747\u5024\u30d3\u30e5\u30fc": "hrpf_102_2_lake",
+            "HRPF_105_\u7740\u4efb\u6b74": "hrpf_105_lake",
+            "HRPF_107_\u30b9\u30da\u30b7\u30e3\u30ea\u30b9\u30c8\u6b74": "hrpf_107_lake",
+            "HRPF_10_\u4f11\u8077\u6b74": "hrpf_010_lake",
+            "HRPF_11_\u51fa\u5411\u30fb\u6d3e\u9063\u53d7\u5165\u6b74": "hrpf_011_lake",
+            "HRPF_12_\u51fa\u5411\u6b74": "hrpf_012_lake",
+            "HRPF_14_\u7b49\u7d1a\u30fb\u533a\u5206\u6b74": "hrpf_014_lake",
+            "HRPF_16_\u7d44\u5408\u54e1\u533a\u5206\u6b74": "hrpf_016_lake",
+            "HRPF_17_\u7d44\u5408\u5c02\u5f93\u8005\u6b74": "hrpf_017_lake",
+            "HRPF_18_\u30df\u30c3\u30b7\u30e7\u30f3\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_018_1_lake",
+            "HRPF_18_\u77ed\u6642\u9593\u52e4\u52d9\u6b74": "hrpf_018_2_lake",
+            "HRPF_19_\u516c\u7684\u8cc7\u683c": "hrpf_019_lake",
+            "HRPF_20_\u4eba\u8ca1\u628a\u63e1\u6b74": "hrpf_020_lake",
+            "HRPF_21_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf": "hrpf_021_lake",
+            "HRPF_22_\uff21\u793e\u54e1\u52e4\u52d9\u5f62\u614b\u6b74": "hrpf_022_lake",
+            "HRPF_23_K\u4eba\u8ca1\u6b74": "hrpf_023_lake",
+            "HRPF_24_\uff2d\uff2d\u5bfe\u8c61\u6b74": "hrpf_024_lake",
+            "HRPF_25_TTM\u6b74": "hrpf_025_lake",
+            "HRPF_26_\u80b2\u6210\u5185\u5bb9\uff08\u56fa\u5b9a\u5e33\u7968\u7528\uff09\u30d3\u30e5\u30fc": "hrpf_026_lake",
+            "HRPF_27_\u5065\u5eb7\u7ba1\u7406\u63aa\u7f6e\u60c5\u5831": "hrpf_027_lake",
+            "HRPF_29_\u30b3\u30f3\u30d4\u30c6\u30f3\u30b7\u30fc\u6b74": "hrpf_029_lake",
+            "HRPF_30_\u30b8\u30e7\u30d6\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_030_lake",
+            "HRPF_31_\u4eba\u4e8b\u30b3\u30e1\u30f3\u30c8": "hrpf_031_lake",
+            "HRPF_32_\u30d1\u30fc\u30bd\u30ca\u30ea\u30c6\u30a3\u8a3a\u65ad\uff08\u4e0a\u53f8\u30b3\u30e1\u30f3\u30c8\uff09": "hrpf_032_lake",
+            "HRPF_33_\u30d1\u30fc\u30bd\u30ca\u30ea\u30c6\u30a3\u8a3a\u65ad\u7d50\u679c": "hrpf_033_lake",
+            "HRPF_34_\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_034_lake",
+            "HRPF_35_\u30d7\u30ed\u30d5\u30a7\u30c3\u30b7\u30e7\u30ca\u30eb\u6b74": "hrpf_035_lake",
+            "HRPF_36_\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u60c5\u5831": "hrpf_036_1_lake",
+            "HRPF_36_\u5b66\u6821": "hrpf_036_2_lake",
+            "HRPF_37_\u5b89\u5168\u6559\u80b2\u8cc7\u683c\uff08\u793e\u5185\uff09\u6b74": "hrpf_037_lake",
+            "HRPF_38_\u5b89\u5168\u6559\u80b2\u8cc7\u683c\uff08\u6cd5\u5b9a\uff09\u6b74": "hrpf_038_lake",
+            "HRPF_39_\u80b2\u6210\u8a08\u753b\u6b74": "hrpf_039_lake",
+            "HRPF_40_\u80b2\u6210\u9762\u8ac7\u6b74": "hrpf_040_lake",
+            "HRPF_41_\u55b6\u696d\u30ec\u30d9\u30eb\u8a8d\u5b9a\u6b74": "hrpf_041_lake",
+            "HRPF_42_\u5bb6\u65cf": "hrpf_042_lake",
+            "HRPF_43_\u5c31\u696d\u5f62\u614b\u6b74": "hrpf_043_lake",
+            "HRPF_44_\u7ba1\u7406\u8005\u7814\u4fee": "hrpf_044_lake",
+            "HRPF_45_\u7ba1\u7406\u8077\u4efb\u7528\u30a2\u30bb\u30b9\u6b74": "hrpf_045_lake",
+            "HRPF_46_\u7814\u4fee\u6559\u80b2\u6b74": "hrpf_046_lake",
+            "HRPF_47_\u73fe\u696d\u6280\u8853\u30fb\u6280\u80fd\u8a8d\u5b9a\u6b74": "hrpf_047_lake",
+            "HRPF_48_\u793e\u5185\u5b66\u6b74": "hrpf_048_lake",
+            "HRPF_49_\u91cd\u70b9C\u30a2\u30b5\u30a4\u30f3\u6b74": "hrpf_049_lake",
+            "HRPF_51_\u8eab\u4e0a\u8abf\u66f8": "hrpf_051_lake",
+            "HRPF_52_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80b2\u6210\u30ab\u30eb\u30c6\uff09": "hrpf_052_1_lake",
+            "HRPF_52_\u5631\u8a17\u8077\u7a2e\u533a\u5206\u6b74": "hrpf_052_2_lake",
+            "HRPF_53_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u78ba\u5b9a\u696d\u7e3e\u533a\u5206\uff09": "hrpf_053_lake",
+            "HRPF_58_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u5354\u50cd\u8ca2\u732e\u5ea6": "hrpf_058_1_lake",
+            "HRPF_58_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff11": "hrpf_058_2_lake",
+            "HRPF_59_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u7dcf\u5408\u8a55\u5b9a": "hrpf_059_1_lake",
+            "HRPF_59_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff12": "hrpf_059_2_lake",
+            "HRPF_60_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff13": "hrpf_060_1_lake",
+            "HRPF_60_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80fd\u529b\u8a55\u5b9a\uff09": "hrpf_060_2_lake",
+            "HRPF_61_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff14": "hrpf_061_1_lake",
+            "HRPF_61_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80fd\u529b\u8a55\u5b9a\u30fb\u6240\u898b\uff09": "hrpf_061_2_lake",
+            "HRPF_62_\u524d\u8077\u6b74": "hrpf_062_lake",
+            "HRPF_63_\u61f2\u6212\u6b74": "hrpf_063_lake",
+            "HRPF_64_\u8868\u5f70\u6b74": "hrpf_064_lake",
+            "HRPF_65_\u9023\u7d61\u5148": "hrpf_065_lake"
+        },
+        "lake_backup_path": "/volume1/6/bk",
+        "lake_location": "/volume7/6/hrpf_lake",
+        "max_workers": 10,
+        "memory_limit": "5G",
+        "objectstore_conf": {
+            "aws_access_key_id": "OZ1K7CLN0LK9KW8IDE5G29RCTBT23GHY8YTWACCSZSA8JABRL4621OJSZ5ZW1C2PBGJ2QPDTTZ6YRN2A7EWZFYTJLV7TF3B33COT4UL7SR57ZL6DJY3S501",
+            "aws_secret_access_key": "H18Z77B75BB4YTWSUCMP6LWC",
+            "bucket": "hrpf-objectstore",
+            "endpoint_url": "https://datafabric01.datahub.local:9000",
+            "prefix": "6"
+        },
+        "remote_dir": "/home/mapr/script/airflow/HRPF/positive_hrmos_insert/script",
+        "spark_script_file": [
+            "insert_HRPF_00b.py"
+        ],
+        "src_path": "/volume1/6"
+    },
+    "POSITIVE_HRMOS_INSERT7": {
+        "chunk_size": 65536,
+        "cpu_limit": "480m",
+        "database_name": "hrpf",
+        "df_auth": {
+            "hostname": [
+                "10.191.14.13",
+                "10.191.14.14",
+                "10.191.14.15"
+            ],
+            "password": "R!fsuo2R",
+            "port": 22,
+            "username": "ope-admin01"
+        },
+        "dtap_path": "dtap://tdh",
+        "file_table_mapping": {
+            "HRPF_00_\u30a2\u30ab\u30a6\u30f3\u30c8\u68da\u5378\u7528": "hrpf_000_lake",
+            "HRPF_00a_\u4eba\u4e8b\u6240\u5c5e\u30fb\u5f79\u8077\u30fb\u51fa\u5411\u30fb\u4f11\u8077(\u57fa\u6e96\u65e5)": "hrpf_00a_lake",
+            "HRPF_00b_\u4eba\u4e8b\u6240\u5c5e(\u57fa\u6e96\u65e5)": "hrpf_00b_lake",
+            "HRPF_00c_\u5f79\u8077(\u57fa\u6e96\u65e5)": "hrpf_00c_lake",
+            "HRPF_00d_\u51fa\u5411(\u57fa\u6e96\u65e5)": "hrpf_00d_lake",
+            "HRPF_00e_\u4f11\u8077(\u57fa\u6e96\u65e5)": "hrpf_00e_lake",
+            "HRPF_00f_\u7d44\u7e54\u56f3\u30c7\u30fc\u30bf": "hrpf_00f_lake",
+            "HRPF_00g_\u30bf\u30ec\u30de\u30cd\u30c4\u30fc\u30eb": "hrpf_00g_lake",
+            "HRPF_01_\u57fa\u672c": "hrpf_001_lake",
+            "HRPF_02_\u4eba\u4e8b\u57fa\u672c\u60c5\u5831": "hrpf_002_lake",
+            "HRPF_03_\u96c7\u7528\u533a\u5206\u6b74": "hrpf_003_lake",
+            "HRPF_04_\u793e\u54e1\u533a\u5206\u6b74": "hrpf_004_lake",
+            "HRPF_05_\u4eba\u8ca1\u7ba1\u7406\u7b87\u6240\u6b74": "hrpf_005_lake",
+            "HRPF_06_\u4f4f\u6240\u6b74": "hrpf_006_lake",
+            "HRPF_07_\u4eba\u4e8b\u6240\u5c5e\u6b74": "hrpf_007_lake",
+            "HRPF_08_\u5f79\u8077\u6b74": "hrpf_008_lake",
+            "HRPF_09_\u8077\u6b74": "hrpf_009_lake",
+            "HRPF_102_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf\u30b3\u30e1\u30f3\u30c8\u30d3\u30e5\u30fc": "hrpf_102_1_lake",
+            "HRPF_102_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf\u5e73\u5747\u5024\u30d3\u30e5\u30fc": "hrpf_102_2_lake",
+            "HRPF_105_\u7740\u4efb\u6b74": "hrpf_105_lake",
+            "HRPF_107_\u30b9\u30da\u30b7\u30e3\u30ea\u30b9\u30c8\u6b74": "hrpf_107_lake",
+            "HRPF_10_\u4f11\u8077\u6b74": "hrpf_010_lake",
+            "HRPF_11_\u51fa\u5411\u30fb\u6d3e\u9063\u53d7\u5165\u6b74": "hrpf_011_lake",
+            "HRPF_12_\u51fa\u5411\u6b74": "hrpf_012_lake",
+            "HRPF_14_\u7b49\u7d1a\u30fb\u533a\u5206\u6b74": "hrpf_014_lake",
+            "HRPF_16_\u7d44\u5408\u54e1\u533a\u5206\u6b74": "hrpf_016_lake",
+            "HRPF_17_\u7d44\u5408\u5c02\u5f93\u8005\u6b74": "hrpf_017_lake",
+            "HRPF_18_\u30df\u30c3\u30b7\u30e7\u30f3\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_018_1_lake",
+            "HRPF_18_\u77ed\u6642\u9593\u52e4\u52d9\u6b74": "hrpf_018_2_lake",
+            "HRPF_19_\u516c\u7684\u8cc7\u683c": "hrpf_019_lake",
+            "HRPF_20_\u4eba\u8ca1\u628a\u63e1\u6b74": "hrpf_020_lake",
+            "HRPF_21_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf": "hrpf_021_lake",
+            "HRPF_22_\uff21\u793e\u54e1\u52e4\u52d9\u5f62\u614b\u6b74": "hrpf_022_lake",
+            "HRPF_23_K\u4eba\u8ca1\u6b74": "hrpf_023_lake",
+            "HRPF_24_\uff2d\uff2d\u5bfe\u8c61\u6b74": "hrpf_024_lake",
+            "HRPF_25_TTM\u6b74": "hrpf_025_lake",
+            "HRPF_26_\u80b2\u6210\u5185\u5bb9\uff08\u56fa\u5b9a\u5e33\u7968\u7528\uff09\u30d3\u30e5\u30fc": "hrpf_026_lake",
+            "HRPF_27_\u5065\u5eb7\u7ba1\u7406\u63aa\u7f6e\u60c5\u5831": "hrpf_027_lake",
+            "HRPF_29_\u30b3\u30f3\u30d4\u30c6\u30f3\u30b7\u30fc\u6b74": "hrpf_029_lake",
+            "HRPF_30_\u30b8\u30e7\u30d6\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_030_lake",
+            "HRPF_31_\u4eba\u4e8b\u30b3\u30e1\u30f3\u30c8": "hrpf_031_lake",
+            "HRPF_32_\u30d1\u30fc\u30bd\u30ca\u30ea\u30c6\u30a3\u8a3a\u65ad\uff08\u4e0a\u53f8\u30b3\u30e1\u30f3\u30c8\uff09": "hrpf_032_lake",
+            "HRPF_33_\u30d1\u30fc\u30bd\u30ca\u30ea\u30c6\u30a3\u8a3a\u65ad\u7d50\u679c": "hrpf_033_lake",
+            "HRPF_34_\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_034_lake",
+            "HRPF_35_\u30d7\u30ed\u30d5\u30a7\u30c3\u30b7\u30e7\u30ca\u30eb\u6b74": "hrpf_035_lake",
+            "HRPF_36_\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u60c5\u5831": "hrpf_036_1_lake",
+            "HRPF_36_\u5b66\u6b74": "hrpf_036_2_lake",
+            "HRPF_37_\u5b89\u5168\u6559\u80b2\u8cc7\u683c\uff08\u793e\u5185\uff09\u6b74": "hrpf_037_lake",
+            "HRPF_38_\u5b89\u5168\u6559\u80b2\u8cc7\u683c\uff08\u6cd5\u5b9a\uff09\u6b74": "hrpf_038_lake",
+            "HRPF_39_\u80b2\u6210\u8a08\u753b\u6b74": "hrpf_039_lake",
+            "HRPF_40_\u80b2\u6210\u9762\u8ac7\u6b74": "hrpf_040_lake",
+            "HRPF_41_\u55b6\u696d\u30ec\u30d9\u30eb\u8a8d\u5b9a\u6b74": "hrpf_041_lake",
+            "HRPF_42_\u5bb6\u65cf": "hrpf_042_lake",
+            "HRPF_43_\u5c31\u696d\u5f62\u614b\u6b74": "hrpf_043_lake",
+            "HRPF_44_\u7ba1\u7406\u8005\u7814\u4fee": "hrpf_044_lake",
+            "HRPF_45_\u7ba1\u7406\u8077\u4efb\u7528\u30a2\u30bb\u30b9\u6b74": "hrpf_045_lake",
+            "HRPF_46_\u7814\u4fee\u6559\u80b2\u6b74": "hrpf_046_lake",
+            "HRPF_47_\u73fe\u696d\u6280\u8853\u30fb\u6280\u80fd\u8a8d\u5b9a\u6b74": "hrpf_047_lake",
+            "HRPF_48_\u793e\u5185\u5b66\u6b74": "hrpf_048_lake",
+            "HRPF_49_\u91cd\u70b9C\u30a2\u30b5\u30a4\u30f3\u6b74": "hrpf_049_lake",
+            "HRPF_51_\u8eab\u4e0a\u8abf\u66f8": "hrpf_051_lake",
+            "HRPF_52_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80b2\u6210\u30ab\u30eb\u30c6\uff09": "hrpf_052_2_lake",
+            "HRPF_52_\u5631\u8a17\u8077\u7a2e\u533a\u5206\u6b74": "hrpf_052_1_lake",
+            "HRPF_53_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u78ba\u5b9a\u696d\u7e3e\u533a\u5206\uff09": "hrpf_053_lake",
+            "HRPF_58_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u5354\u50cd\u8ca2\u732e\u5ea6": "hrpf_058_2_lake",
+            "HRPF_58_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff11": "hrpf_058_1_lake",
+            "HRPF_59_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u7dcf\u5408\u8a55\u5b9a": "hrpf_059_2_lake",
+            "HRPF_59_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff12": "hrpf_059_1_lake",
+            "HRPF_60_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff13": "hrpf_060_1_lake",
+            "HRPF_60_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80fd\u529b\u8a55\u5b9a\uff09": "hrpf_060_2_lake",
+            "HRPF_61_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff14": "hrpf_061_1_lake",
+            "HRPF_61_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80fd\u529b\u8a55\u5b9a\u30fb\u6240\u898b\uff09": "hrpf_061_2_lake",
+            "HRPF_62_\u524d\u8077\u6b74": "hrpf_062_lake",
+            "HRPF_63_\u61f2\u6212\u6b74": "hrpf_063_lake",
+            "HRPF_64_\u8868\u5f70\u6b74": "hrpf_064_lake",
+            "HRPF_65_\u9023\u7d61\u5148": "hrpf_065_lake"
+        },
+        "lake_backup_path": "/volume5/hrpf/backup/lake",
+        "lake_location": "/volume5/hrpf/lake",
+        "max_workers": 5,
+        "memory_limit": "3G",
+        "proself_conf": {
+            "base_url": "https://192.168.8.50:8080",
+            "max_retries": 1,
+            "user_auth": {
+                "password": "Tepsys555",
+                "user": "tepco-data-hub2@tepsys.co.jp"
+            },
+            "wait_seconds": 10
+        },
+        "remote_dir": "/home/ope-admin01@pg.tdh.tepcube.jp/script/airflow/HRPF/positive_hrmos_insert/script",
+        "spark_script_file": [],
+        "src_path": "/volume4/hrpf"
+    },
+    "POSITIVE_HRMOS_INSERT_LARGE": {
+        "chunk_size": 65536,
+        "cpu_limit": "480m",
+        "database_name": "hrpf_1",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "dtap_path": "dtap://HRPF",
+        "file_table_mapping": {
+            "\u63a8\u8ad6\u7d50\u679c\u30c7\u30fc\u30bf": "hrpf_00h_lake"
+        },
+        "lake_backup_path": "/volume1/3/bk",
+        "lake_location": "/volume7/3/hrpf_lake",
+        "max_workers": 1,
+        "memory_limit": "2G",
+        "objectstore_conf": {
+            "aws_access_key_id": "OZ1K7CLN0LK9KW8IDE5G29RCTBT23GHY8YTWACCSZSA8JABRL4621OJSZ5ZW1C2PBGJ2QPDTTZ6YRN2A7EWZFYTJLV7TF3B33COT4UL7SR57ZL6DJY3S501",
+            "aws_secret_access_key": "H18Z77B75BB4YTWSUCMP6LWC",
+            "bucket": "hrpf-objectstore",
+            "endpoint_url": "https://datafabric01.datahub.local:9000",
+            "prefix": "3"
+        },
+        "remote_dir": "/home/mapr/script/airflow/HRPF/positive_hrmos_insert/script",
+        "spark_script_file": [],
+        "src_path": "/volume1/3"
+    },
+    "POSITIVE_HRMOS_INSERT_LARGE3": {
+        "chunk_size": 65536,
+        "cpu_limit": "500m",
+        "database_name": "hrpf_3",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "dtap_path": "dtap://HRPF",
+        "file_table_mapping": {
+            "\u63a8\u8ad6\u7d50\u679c\u30c7\u30fc\u30bf": "hrpf_00h_lake"
+        },
+        "lake_backup_path": "/volume1/3/bk",
+        "lake_location": "/volume7/3/hrpf_lake",
+        "max_workers": 1,
+        "memory_limit": "2G",
+        "objectstore_conf": {
+            "aws_access_key_id": "OZ1K7CLN0LK9KW8IDE5G29RCTBT23GHY8YTWACCSZSA8JABRL4621OJSZ5ZW1C2PBGJ2QPDTTZ6YRN2A7EWZFYTJLV7TF3B33COT4UL7SR57ZL6DJY3S501",
+            "aws_secret_access_key": "H18Z77B75BB4YTWSUCMP6LWC",
+            "bucket": "hrpf-objectstore",
+            "endpoint_url": "https://datafabric01.datahub.local:9000",
+            "prefix": "3"
+        },
+        "remote_dir": "/home/mapr/script/airflow/HRPF/positive_hrmos_insert/script",
+        "spark_script_file": [],
+        "src_path": "/volume1/3"
+    },
+    "POSITIVE_HRMOS_INSERT_LARGE7": {
+        "chunk_size": 65536,
+        "cpu_limit": "480m",
+        "database_name": "hrpf",
+        "df_auth": {
+            "hostname": [
+                "10.191.14.13",
+                "10.191.14.14",
+                "10.191.14.15"
+            ],
+            "password": "R!fsuo2R",
+            "port": 22,
+            "username": "ope-admin01"
+        },
+        "dtap_path": "dtap://tdh",
+        "file_table_mapping": {
+            "\u63a8\u8ad6\u7d50\u679c\u30c7\u30fc\u30bf": "hrpf_00h_lake"
+        },
+        "lake_backup_path": "/volume5/hrpf/backup/lake",
+        "lake_location": "/volume5/hrpf/lake",
+        "max_workers": 1,
+        "memory_limit": "3G",
+        "proself_conf": {
+            "base_url": "",
+            "max_retries": 1,
+            "user_auth": {
+                "password": "",
+                "user": ""
+            },
+            "wait_seconds": 10
+        },
+        "remote_dir": "/home/ope-admin01@pg.tdh.tepcube.jp/script/airflow/HRPF/positive_hrmos_insert/script",
+        "spark_script_file": [
+            "insert_HRPF_00h.py"
+        ],
+        "src_path": "/volume4/hrpf"
+    },
+    "POSITIVE_HRMOS_JOIN": {
+        "cpu_limit": "500m",
+        "database_name": "hrpf_1",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "memory_limit": "3G",
+        "script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_join/script/positive_hrmos_join.sh",
+        "spark_script_file": [],
+        "spark_script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_join/script/join",
+        "spark_sessions_count": "1"
+    },
+    "POSITIVE_HRMOS_JOIN1": {
+        "cpu_limit": "500m",
+        "database_name": "hrpf_1",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "memory_limit": "3G",
+        "script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_join/script/positive_hrmos_join.sh",
+        "spark_script_file": "positive_hrmos_join_spark_024.py",
+        "spark_script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_join/script/join",
+        "spark_sessions_count": "1"
+    },
+    "POSITIVE_HRMOS_JOIN2": {
+        "cpu_limit": "500m",
+        "database_name": "hrpf_2",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "memory_limit": "3G",
+        "script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_join/script/positive_hrmos_join.sh",
+        "spark_script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_join/script/join"
+    },
+    "POSITIVE_HRMOS_JOIN3": {
+        "cpu_limit": "500m",
+        "database_name": "hrpf_1",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "memory_limit": "3G",
+        "script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_join/script/positive_hrmos_join.sh",
+        "spark_script_file": "positive_hrmos_join_spark_015.py",
+        "spark_script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_join/script/join",
+        "spark_sessions_count": "1"
+    },
+    "POSITIVE_HRMOS_JOIN4": {
+        "cpu_limit": "500m",
+        "database_name": "hrpf_4",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "memory_limit": "3G",
+        "script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_join/script/positive_hrmos_join.sh",
+        "spark_script_file": "positive_hrmos_join_spark_058.py",
+        "spark_script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_join/script/join"
+    },
+    "POSITIVE_HRMOS_JOIN5": {
+        "cpu_limit": "500m",
+        "database_name": "hrpf_5",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "memory_limit": "3G",
+        "script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_join/script/positive_hrmos_join.sh",
+        "spark_script_file": "positive_hrmos_join_spark_050.py",
+        "spark_script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_join/script/join"
+    },
+    "POSITIVE_HRMOS_JOIN6": {
+        "cpu_limit": "500m",
+        "database_name": "hrpf_6",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "memory_limit": "3G",
+        "script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_join/script/positive_hrmos_join.sh",
+        "spark_script_file": "positive_hrmos_join_spark_001.py",
+        "spark_script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_join/script/join"
+    },
+    "POSITIVE_HRMOS_JOIN_LARGE": {
+        "cpu_limit": "500m",
+        "database_name": "hrpf_1",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "memory_limit": "3G",
+        "script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_join/script/positive_hrmos_join.sh",
+        "spark_script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_join/script/join_large",
+        "spark_sessions_count": "1"
+    },
+    "POSITIVE_HRMOS_MOVE": {
+        "backup_input_hdfs": "/volume1/3/bk",
+        "backup_input_os": "/test/backup/input",
+        "backup_output_hdfs": "/volume7/backup/unload",
+        "backup_output_os": "/test/backup/output",
+        "backup_retention_days": 7,
+        "chunk_size": 65536,
+        "cpu_limit": "480m",
+        "dtap_path": "dtap://HRPF",
+        "max_workers": 5,
+        "memory_limit": "3G",
+        "move_command_timeout": 1800,
+        "objectstore_config": {
+            "aws_access_key_id": "OZ1K7CLN0LK9KW8IDE5G29RCTBT23GHY8YTWACCSZSA8JABRL4621OJSZ5ZW1C2PBGJ2QPDTTZ6YRN2A7EWZFYTJLV7TF3B33COT4UL7SR57ZL6DJY3S501",
+            "aws_secret_access_key": "H18Z77B75BB4YTWSUCMP6LWC",
+            "bucket": "hrpf-objectstore",
+            "endpoint_url": "https://datafabric01.datahub.local:9000",
+            "prefix": "3"
+        },
+        "output_hdfs": "/volume7/2/2/unload",
+        "output_os": "/test/output"
+    },
+    "POSITIVE_HRMOS_PROSELF": {
+        "chunk_size": 65536,
+        "cpu_limit": "480m",
+        "dtap_path": "dtap://tdh",
+        "file_table_mapping": {
+            "HRPF_00_\u30a2\u30ab\u30a6\u30f3\u30c8\u68da\u5378\u7528": "hrpf_000_lake",
+            "HRPF_00a_\u4eba\u4e8b\u6240\u5c5e\u30fb\u5f79\u8077\u30fb\u51fa\u5411\u30fb\u4f11\u8077(\u57fa\u6e96\u65e5)": "hrpf_00a_lake",
+            "HRPF_00b_\u4eba\u4e8b\u6240\u5c5e(\u57fa\u6e96\u65e5)": "hrpf_00b_lake",
+            "HRPF_00c_\u5f79\u8077(\u57fa\u6e96\u65e5)": "hrpf_00c_lake",
+            "HRPF_00d_\u51fa\u5411(\u57fa\u6e96\u65e5)": "hrpf_00d_lake",
+            "HRPF_00e_\u4f11\u8077(\u57fa\u6e96\u65e5)": "hrpf_00e_lake",
+            "HRPF_00f_\u7d44\u7e54\u56f3\u30c7\u30fc\u30bf": "hrpf_00f_lake",
+            "HRPF_00g_\u30bf\u30ec\u30de\u30cd\u30c4\u30fc\u30eb": "hrpf_00g_lake",
+            "HRPF_01_\u57fa\u672c": "hrpf_001_lake",
+            "HRPF_02_\u4eba\u4e8b\u57fa\u672c\u60c5\u5831": "hrpf_002_lake",
+            "HRPF_03_\u96c7\u7528\u533a\u5206\u6b74": "hrpf_003_lake",
+            "HRPF_04_\u793e\u54e1\u533a\u5206\u6b74": "hrpf_004_lake",
+            "HRPF_05_\u4eba\u8ca1\u7ba1\u7406\u7b87\u6240\u6b74": "hrpf_005_lake",
+            "HRPF_06_\u4f4f\u6240\u6b74": "hrpf_006_lake",
+            "HRPF_07_\u4eba\u4e8b\u6240\u5c5e\u6b74": "hrpf_007_lake",
+            "HRPF_08_\u5f79\u8077\u6b74": "hrpf_008_lake",
+            "HRPF_09_\u8077\u6b74": "hrpf_009_lake",
+            "HRPF_102_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf\u30b3\u30e1\u30f3\u30c8\u30d3\u30e5\u30fc": "hrpf_102_1_lake",
+            "HRPF_102_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf\u5e73\u5747\u5024\u30d3\u30e5\u30fc": "hrpf_102_2_lake",
+            "HRPF_105_\u7740\u4efb\u6b74": "hrpf_105_lake",
+            "HRPF_107_\u30b9\u30da\u30b7\u30e3\u30ea\u30b9\u30c8\u6b74": "hrpf_107_lake",
+            "HRPF_10_\u4f11\u8077\u6b74": "hrpf_010_lake",
+            "HRPF_11_\u51fa\u5411\u30fb\u6d3e\u9063\u53d7\u5165\u6b74": "hrpf_011_lake",
+            "HRPF_12_\u51fa\u5411\u6b74": "hrpf_012_lake",
+            "HRPF_14_\u7b49\u7d1a\u30fb\u533a\u5206\u6b74": "hrpf_014_lake",
+            "HRPF_16_\u7d44\u5408\u54e1\u533a\u5206\u6b74": "hrpf_016_lake",
+            "HRPF_17_\u7d44\u5408\u5c02\u5f93\u8005\u6b74": "hrpf_017_lake",
+            "HRPF_18_\u30df\u30c3\u30b7\u30e7\u30f3\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_018_1_lake",
+            "HRPF_18_\u77ed\u6642\u9593\u52e4\u52d9\u6b74": "hrpf_018_2_lake",
+            "HRPF_19_\u516c\u7684\u8cc7\u683c": "hrpf_019_lake",
+            "HRPF_20_\u4eba\u8ca1\u628a\u63e1\u6b74": "hrpf_020_lake",
+            "HRPF_21_\uff13\uff16\uff10\u5ea6\u884c\u52d5\u89b3\u5bdf": "hrpf_021_lake",
+            "HRPF_22_\uff21\u793e\u54e1\u52e4\u52d9\u5f62\u614b\u6b74": "hrpf_022_lake",
+            "HRPF_23_K\u4eba\u8ca1\u6b74": "hrpf_023_lake",
+            "HRPF_24_\uff2d\uff2d\u5bfe\u8c61\u6b74": "hrpf_024_lake",
+            "HRPF_25_TTM\u6b74": "hrpf_025_lake",
+            "HRPF_26_\u80b2\u6210\u5185\u5bb9\uff08\u56fa\u5b9a\u5e33\u7968\u7528\uff09\u30d3\u30e5\u30fc": "hrpf_026_lake",
+            "HRPF_27_\u5065\u5eb7\u7ba1\u7406\u63aa\u7f6e\u60c5\u5831": "hrpf_027_lake",
+            "HRPF_29_\u30b3\u30f3\u30d4\u30c6\u30f3\u30b7\u30fc\u6b74": "hrpf_029_lake",
+            "HRPF_30_\u30b8\u30e7\u30d6\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_030_lake",
+            "HRPF_31_\u4eba\u4e8b\u30b3\u30e1\u30f3\u30c8": "hrpf_031_lake",
+            "HRPF_32_\u30d1\u30fc\u30bd\u30ca\u30ea\u30c6\u30a3\u8a3a\u65ad\uff08\u4e0a\u53f8\u30b3\u30e1\u30f3\u30c8\uff09": "hrpf_032_lake",
+            "HRPF_33_\u30d1\u30fc\u30bd\u30ca\u30ea\u30c6\u30a3\u8a3a\u65ad\u7d50\u679c": "hrpf_033_lake",
+            "HRPF_34_\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\uff08\u30ad\u30e3\u30ea\u30a2\uff35\uff30\uff09": "hrpf_034_lake",
+            "HRPF_35_\u30d7\u30ed\u30d5\u30a7\u30c3\u30b7\u30e7\u30ca\u30eb\u6b74": "hrpf_035_lake",
+            "HRPF_36_\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u60c5\u5831": "hrpf_036_1_lake",
+            "HRPF_36_\u5b66\u6b74": "hrpf_036_2_lake",
+            "HRPF_37_\u5b89\u5168\u6559\u80b2\u8cc7\u683c\uff08\u793e\u5185\uff09\u6b74": "hrpf_037_lake",
+            "HRPF_38_\u5b89\u5168\u6559\u80b2\u8cc7\u683c\uff08\u6cd5\u5b9a\uff09\u6b74": "hrpf_038_lake",
+            "HRPF_39_\u80b2\u6210\u8a08\u753b\u6b74": "hrpf_039_lake",
+            "HRPF_40_\u80b2\u6210\u9762\u8ac7\u6b74": "hrpf_040_lake",
+            "HRPF_41_\u55b6\u696d\u30ec\u30d9\u30eb\u8a8d\u5b9a\u6b74": "hrpf_041_lake",
+            "HRPF_42_\u5bb6\u65cf": "hrpf_042_lake",
+            "HRPF_43_\u5c31\u696d\u5f62\u614b\u6b74": "hrpf_043_lake",
+            "HRPF_44_\u7ba1\u7406\u8005\u7814\u4fee": "hrpf_044_lake",
+            "HRPF_45_\u7ba1\u7406\u8077\u4efb\u7528\u30a2\u30bb\u30b9\u6b74": "hrpf_045_lake",
+            "HRPF_46_\u7814\u4fee\u6559\u80b2\u6b74": "hrpf_046_lake",
+            "HRPF_47_\u73fe\u696d\u6280\u8853\u30fb\u6280\u80fd\u8a8d\u5b9a\u6b74": "hrpf_047_lake",
+            "HRPF_48_\u793e\u5185\u5b66\u6b74": "hrpf_048_lake",
+            "HRPF_49_\u91cd\u70b9C\u30a2\u30b5\u30a4\u30f3\u6b74": "hrpf_049_lake",
+            "HRPF_51_\u8eab\u4e0a\u8abf\u66f8": "hrpf_051_lake",
+            "HRPF_52_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80b2\u6210\u30ab\u30eb\u30c6\uff09": "hrpf_052_2_lake",
+            "HRPF_52_\u5631\u8a17\u8077\u7a2e\u533a\u5206\u6b74": "hrpf_052_1_lake",
+            "HRPF_53_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u78ba\u5b9a\u696d\u7e3e\u533a\u5206\uff09": "hrpf_053_lake",
+            "HRPF_58_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u5354\u50cd\u8ca2\u732e\u5ea6": "hrpf_058_2_lake",
+            "HRPF_58_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff11": "hrpf_058_1_lake",
+            "HRPF_59_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u7dcf\u5408\u8a55\u5b9a": "hrpf_059_2_lake",
+            "HRPF_59_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff12": "hrpf_059_1_lake",
+            "HRPF_60_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff13": "hrpf_060_1_lake",
+            "HRPF_60_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80fd\u529b\u8a55\u5b9a\uff09": "hrpf_060_2_lake",
+            "HRPF_61_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u696d\u7e3e\u8a55\u5b9a\uff09\u8ab2\u984c\u30fb\u696d\u52d9\uff14": "hrpf_061_1_lake",
+            "HRPF_61_\u4eba\u4e8b\u8003\u8ab2\u6b74\uff08\u80fd\u529b\u8a55\u5b9a\u30fb\u6240\u898b\uff09": "hrpf_061_2_lake",
+            "HRPF_62_\u524d\u8077\u6b74": "hrpf_062_lake",
+            "HRPF_63_\u61f2\u6212\u6b74": "hrpf_063_lake",
+            "HRPF_64_\u8868\u5f70\u6b74": "hrpf_064_lake",
+            "HRPF_65_\u9023\u7d61\u5148": "hrpf_065_lake"
+        },
+        "max_workers": 5,
+        "memory_limit": "3G",
+        "proself_check": false,
+        "proself_conf": {
+            "base_url": "baseurl",
+            "max_retries": 1,
+            "user_auth": {
+                "password": "TDH_PG_6S",
+                "user": "tdh-pg_data-analysis-sysacct-ml@ml.tepsys.co.jp"
+            },
+            "wait_seconds": 10
+        },
+        "proself_copy": false,
+        "src_path": "/volume4/hrpf"
+    },
+    "POSITIVE_HRMOS_PROSELF_LARGE": {
+        "chunk_size": 65536,
+        "cpu_limit": "480m",
+        "dtap_path": "dtap://tdh",
+        "file_table_mapping": {
+            "\u63a8\u8ad6\u7d50\u679c\u30c7\u30fc\u30bf": "hrpf_00h_lake"
+        },
+        "max_workers": 1,
+        "memory_limit": "3G",
+        "proself_check": false,
+        "proself_conf": {
+            "base_url": "baseurl",
+            "max_retries": 1,
+            "user_auth": {
+                "password": "TDH_PG_6S",
+                "user": "tdh-pg_data-analysis-sysacct-ml@ml.tepsys.co.jp"
+            },
+            "wait_seconds": 10
+        },
+        "proself_copy": false,
+        "src_path": "/volume4/hrpf"
+    },
+    "POSITIVE_HRMOS_SEND": {
+        "backup_enabled": true,
+        "backup_path": "dtap://HRPF/volume7/backup/unload",
+        "backup_retention_days": 7,
+        "cpu_limit": "480m",
+        "memory_limit": "2G",
+        "permission_to_send": false,
+        "proxy_host1": "10.191.3.225",
+        "proxy_host2": "test",
+        "proxy_port1": 3128,
+        "proxy_port2": 443,
+        "s3_config": {
+            "bucket_name": "hrpf-objectstore",
+            "connection_id": "testt",
+            "s3_prefix": "hrmos",
+            "use_ssl": true
+        },
+        "src_path": "dtap://HRPF/volume7/2/2/unload"
+    },
+    "POSITIVE_HRMOS_SEND2": {
+        "backup_enabled": true,
+        "backup_path": "dtap://HRPF/volume7/backup/unload",
+        "backup_retention_days": 7,
+        "cpu_limit": "480m",
+        "memory_limit": "2G",
+        "objectstore_config": {
+            "bucket_name": "tdh-file-bucket",
+            "connection_id": "testt",
+            "endpoint_url": "https://datafabric01.datahub.local:9000",
+            "s3_prefix": "hrmos",
+            "use_ssl": true
+        },
+        "objectstore_enabled": true,
+        "proxy_host1": "192.168.10.202",
+        "proxy_host2": "10.191.3.225",
+        "proxy_port1": 80,
+        "proxy_port2": 3128,
+        "s3_config": {
+            "bucket_name": "",
+            "connection_id": "",
+            "s3_prefix": "",
+            "use_ssl": true
+        },
+        "src_path": "dtap://HRPF/volume7/unload"
+    },
+    "POSITIVE_HRMOS_SEND3": {
+        "backup_enabled": true,
+        "backup_path": "dtap://HRPF/volume7/backup/unload",
+        "backup_retention_days": 7,
+        "cpu_limit": "480m",
+        "memory_limit": "2G",
+        "objectstore_backup_enabled": true,
+        "objectstore_config": {
+            "backup_prefix": "backup",
+            "bucket_name": "tdh-file-bucket",
+            "connection_id": "testt",
+            "endpoint_url": "https://datafabric01.datahub.local:9000",
+            "s3_prefix": "hrmos",
+            "use_ssl": true
+        },
+        "objectstore_enabled": true,
+        "proxy_host1": "192.168.10.202",
+        "proxy_host2": "10.191.3.225",
+        "proxy_port1": 80,
+        "proxy_port2": 3128,
+        "s3_config": {
+            "bucket_name": "tdh-file-bucket",
+            "connection_id": "aws_s3_hrmos",
+            "s3_prefix": "hrmos",
+            "use_ssl": true
+        },
+        "src_path": "dtap://HRPF/volume7/unload"
+    },
+    "POSITIVE_HRMOS_SENDTEST": {
+        "backup_enabled": true,
+        "backup_path": "dtap://HRPF/volume7/backup/unload/2",
+        "backup_retention_days": 1,
+        "cpu_limit": "480m",
+        "memory_limit": "2G",
+        "objectstore_config": {
+            "bucket_name": "tdh-file-bucket",
+            "connection_id": "testt",
+            "endpoint_url": "https://datafabric01.datahub.local:9000",
+            "s3_prefix": "hrmos",
+            "use_ssl": true
+        },
+        "objectstore_enabled": true,
+        "proxy_host1": "192.168.10.202",
+        "proxy_host2": "10.191.3.225",
+        "proxy_port1": 80,
+        "proxy_port2": 3128,
+        "send_destination": "objectstore",
+        "src_path": "dtap://HRPF/volume7/2/2/unload"
+    },
+    "POSITIVE_HRMOS_SEND_LARGE": {
+        "backup_enabled": true,
+        "backup_path": "dtap://HRPF/volume7/backup/unload",
+        "backup_retention_days": 7,
+        "cpu_limit": "500m",
+        "memory_limit": "2G",
+        "permission_to_send": false,
+        "s3_config": {
+            "bucket_name": "tdh-file-bucket",
+            "connection_id": "aws_s3_hrmos",
+            "proxy_connection_id1": "proxy_server1",
+            "proxy_connection_id2": "proxy_server2",
+            "s3_prefix": "large",
+            "use_ssl": true
+        },
+        "src_path": "dtap://HRPF/volume7/2/unload_large"
+    },
+    "POSITIVE_HRMOS_SEND_TERAJIMA": {
+        "backup_enabled": true,
+        "backup_path": "dtap://HRPF/volume7/backup/unload",
+        "backup_retention_days": 7,
+        "cpu_limit": "480m",
+        "memory_limit": "2G",
+        "proxy_host1": "192.168.10.202",
+        "proxy_host2": "10.191.3.225",
+        "proxy_port1": 80,
+        "proxy_port2": 3128,
+        "s3_config": {
+            "bucket_name": "tdh-file-bucket",
+            "connection_id": "testt",
+            "s3_prefix": "hrmos",
+            "use_ssl": true
+        },
+        "src_path": "dtap://HRPF/volume7/unload"
+    },
+    "POSITIVE_HRMOS_UNLOAD": {
+        "base_config_file": "/home/mapr/script/airflow/HRPF/conf/unload_base.json",
+        "cpu_limit": "1000m",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "environment_overrides": {
+            "db_name": "hrpf_1",
+            "df_mount_point": "/HRPF",
+            "dtap_work_dir": "/volume7/2/2/unload/POHR",
+            "script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_unload/script6/unload.sh"
+        },
+        "memory_limit": "3G",
+        "performance_overrides": {
+            "MAX_RECORDS_PER_FILE": 5000,
+            "MEMORY_THRESHOLD": 0.9,
+            "PARALLEL_WORKERS": 4,
+            "SWAP_THRESHOLD": 0.6
+        },
+        "table_filters": {
+            "include_tables": [
+                "POHR_001_DM",
+                "POHR_002_DM"
+            ]
+        },
+        "unified_script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_unload/script6/unload_spark_POHR_DM.py"
+    },
+    "POSITIVE_HRMOS_UNLOAD1": {
+        "base_config_file": "/home/mapr/script/airflow/HRPF/conf/unload_base.json",
+        "cpu_limit": "500m",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "environment_overrides": {
+            "db_name": "hrpf_6",
+            "df_mount_point": "/HRPF",
+            "dtap_work_dir": "/volume7/1/hrpf_unload/POHR"
+        },
+        "memory_limit": "3G",
+        "performance_overrides": {
+            "MAX_RECORDS_PER_FILE": 5000,
+            "MAX_RETRIES": 1,
+            "MEMORY_THRESHOLD": 0.9,
+            "SWAP_THRESHOLD": 0.6
+        },
+        "script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_unload/script3/unload.sh",
+        "table_filters": {
+            "include_tables": [
+                "POHR_011_DM"
+            ]
+        },
+        "unified_script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_unload/script3/unload_spark_POHR_DM_table\u540d\u5bfe\u5fdc+bom\u5bfe\u5fdc.py"
+    },
+    "POSITIVE_HRMOS_UNLOAD2": {
+        "base_config_file": "/home/mapr/script/airflow/HRPF/conf/unload_base.json",
+        "cpu_limit": "1000m",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "environment_overrides": {
+            "db_name": "hrpf_2",
+            "df_mount_point": "/HRPF",
+            "dtap_work_dir": "/volume7/unload/POHR",
+            "script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_unload/script6/unload.sh"
+        },
+        "memory_limit": "3G",
+        "performance_overrides": {
+            "MAX_RECORDS_PER_FILE": 5000,
+            "MEMORY_THRESHOLD": 0.9,
+            "PARALLEL_WORKERS": 4,
+            "SWAP_THRESHOLD": 0.6
+        },
+        "unified_script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_unload/script6/unload_spark_POHR_DM.py"
+    },
+    "POSITIVE_HRMOS_UNLOAD3": {
+        "base_config_file": "/home/mapr/script/airflow/HRPF/conf/unload_base.json",
+        "cpu_limit": "500m",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "environment_overrides": {
+            "db_name": "hrpf_6",
+            "df_mount_point": "/HRPF",
+            "dtap_work_dir": "/volume7/3/hrpf_unload/POHR"
+        },
+        "memory_limit": "3G",
+        "performance_overrides": {
+            "MAX_RECORDS_PER_FILE": 5000,
+            "MEMORY_THRESHOLD": 0.9,
+            "PARALLEL_WORKERS": 1,
+            "SWAP_THRESHOLD": 0.6
+        },
+        "script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_unload/script3/unload.sh",
+        "table_filters": {
+            "include_tables": [
+                "POHR_004_DM"
+            ]
+        },
+        "unified_script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_unload/script3/unload_spark_POHR_DM_table\u540d\u5bfe\u5fdc+bom\u5bfe\u5fdc.py"
+    },
+    "POSITIVE_HRMOS_UNLOAD4": {
+        "base_config_file": "/home/mapr/script/airflow/HRPF/conf/unload_base.json",
+        "cpu_limit": "500m",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "environment_overrides": {
+            "db_name": "hrpf_4",
+            "df_mount_point": "/HRPF",
+            "dtap_work_dir": "/volume7/4/hrpf_unload/POHR"
+        },
+        "memory_limit": "3G",
+        "performance_overrides": {
+            "MAX_RECORDS_PER_FILE": 5000,
+            "MAX_RETRIES": 1,
+            "MEMORY_THRESHOLD": 0.9,
+            "SWAP_THRESHOLD": 0.6
+        },
+        "script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_unload/script3/unload.sh",
+        "table_filters": {
+            "include_tables": [
+                "POHR_058_DM",
+                "POHR_059_DM",
+                "POHR_060_DM",
+                "POHR_061_DM",
+                "POHR_062_DM"
+            ]
+        },
+        "unified_script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_unload/script3/unload_spark_POHR_DM_table\u540d\u5bfe\u5fdc+bom\u5bfe\u5fdc.py"
+    },
+    "POSITIVE_HRMOS_UNLOAD5": {
+        "base_config_file": "/home/mapr/script/airflow/HRPF/conf/unload_base.json",
+        "cpu_limit": "500m",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "environment_overrides": {
+            "db_name": "hrpf_5",
+            "df_mount_point": "/HRPF",
+            "dtap_work_dir": "/volume7/5/hrpf_unload/POHR"
+        },
+        "memory_limit": "3G",
+        "performance_overrides": {
+            "MAX_RECORDS_PER_FILE": 5000,
+            "MAX_RETRIES": 1,
+            "MEMORY_THRESHOLD": 0.9,
+            "SWAP_THRESHOLD": 0.6
+        },
+        "script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_unload/script3/unload.sh",
+        "table_filters": {
+            "include_tables": [
+                "POHR_020_DM"
+            ]
+        },
+        "unified_script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_unload/script3/unload_spark_POHR_DM_table\u540d\u5bfe\u5fdc+bom\u5bfe\u5fdc.py"
+    },
+    "POSITIVE_HRMOS_UNLOAD6": {
+        "base_config_file": "/home/mapr/script/airflow/HRPF/conf/unload_base.json",
+        "cpu_limit": "500m",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "environment_overrides": {
+            "db_name": "hrpf_6",
+            "df_mount_point": "/HRPF",
+            "dtap_work_dir": "/volume7/6/hrpf_unload/POHR"
+        },
+        "memory_limit": "3G",
+        "performance_overrides": {
+            "MAX_RECORDS_PER_FILE": 5000,
+            "MAX_RETRIES": 1,
+            "MEMORY_THRESHOLD": 0.9,
+            "SWAP_THRESHOLD": 0.6
+        },
+        "script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_unload/script3/unload.sh",
+        "table_filters": {
+            "include_tables": [
+                "POHR_004_DM"
+            ]
+        },
+        "unified_script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_unload/script3/unload_spark_POHR_DM_table\u540d\u5bfe\u5fdc+bom\u5bfe\u5fdc.py"
+    },
+    "POSITIVE_HRMOS_UNLOAD_large": {
+        "cpu_limit": "1000m",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "environment_overrides": {
+            "db_name": "hrpf_1",
+            "df_mount_point": "/HRPF",
+            "dtap_work_dir": "/volume7/2/unload_large/POHR"
+        },
+        "memory_limit": "3G",
+        "performance_overrides": {
+            "MEMORY_THRESHOLD": 0.9,
+            "PARALLEL_WORKERS": 1,
+            "SWAP_THRESHOLD": 0.6
+        },
+        "script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_unload/script6/unload.sh",
+        "table_filters": {
+            "include_tables": [
+                "POHR_078_DM"
+            ]
+        },
+        "unified_script_path": "/home/mapr/script/airflow/HRPF/positive_hrmos_unload/script6/unload_spark_POHR_DM_large.py"
+    },
+    "PROSELF_TEST": {
+        "cpu_limit": "480m",
+        "memory_limit": "3G",
+        "proself_auth": {
+            "password": "Tepsys555",
+            "user": "tepco-data-hub2@tepsys.co.jp"
+        },
+        "proself_base_url": "https://192.168.8.50:8080",
+        "proself_dir": "99999_TDH\u5c02\u7528\uff08\u30c6\u30b9\u30c8\uff09",
+        "schedule_interval": ""
+    },
+    "RP_HTTPS_Proself_PUT": {
+        "cpu_limit": "480m",
+        "diff_filename": "output_dir_diff",
+        "log_directory": "logs",
+        "log_old_directory": "old",
+        "max_retries": 3,
+        "memory_limit": "3G",
+        "objectstore_access_key": "OZ1K7CLN0LK9KW8IDE5G29RCTBT23GHY8YTWACCSZSA8JABRL4621OJSZ5ZW1C2PBGJ2QPDTTZ6YRN2A7EWZFYTJLV7TF3B33COT4UL7SR57ZL6DJY3S501",
+        "objectstore_secret_key": "H18Z77B75BB4YTWSUCMP6LWC",
+        "objectstore_url": "https://datafabric01.datahub.local:9000",
+        "pair": [
+            {
+                "bucket": "bucket-02",
+                "proself_upload_path": "99999_TDH\u5c02\u7528\uff08\u30c6\u30b9\u30c8\uff09/RP_test-02",
+                "s3_base_directory": "comon_projects",
+                "target_directory": "output"
+            },
+            {
+                "bucket": "bucket-03",
+                "proself_upload_path": "99999_TDH\u5c02\u7528\uff08\u30c6\u30b9\u30c8\uff09/RP_test-03",
+                "s3_base_directory": "comon_projects",
+                "target_directory": "output"
+            }
+        ],
+        "pre_filelist_path": "RP/logs/output_file_list_pre",
+        "pre_filename": "output_file_list_pre",
+        "proself_auth": {
+            "password": "Tepsys555",
+            "user": "tepco-data-hub2@tepsys.co.jp"
+        },
+        "proself_base_url": "https://192.168.8.50:8080/",
+        "schedule_interval": "",
+        "tdh_bucket": "log-bucket",
+        "wait_seconds": 10
+    },
+    "RP_HTTPS_Proself_PUT_weathernews": {
+        "cpu_limit": "480m",
+        "diff_filename": "weathernews_dir_diff",
+        "log_directory": "logs",
+        "log_old_directory": "old",
+        "max_retries": 3,
+        "memory_limit": "3G",
+        "objectstore_access_key": "OZ1K7CLN0LK9KW8IDE5G29RCTBT23GHY8YTWACCSZSA8JABRL4621OJSZ5ZW1C2PBGJ2QPDTTZ6YRN2A7EWZFYTJLV7TF3B33COT4UL7SR57ZL6DJY3S501",
+        "objectstore_secret_key": "H18Z77B75BB4YTWSUCMP6LWC",
+        "objectstore_url": "https://datafabric01.datahub.local:9000",
+        "pair": [
+            {
+                "bucket": "weathernews",
+                "proself_upload_path": "03205_TepcoDataHub/60_6S/99_work/\u500b\u4eba\u30d5\u30a9\u30eb\u30c0/sumitani",
+                "s3_base_directory": "RP_test",
+                "target_directory": "output"
+            }
+        ],
+        "pre_filelist_path": "RP/logs/weathernews_file_list_pre",
+        "pre_filename": "weathernews_file_list_pre",
+        "proself_auth": {
+            "password": "@Remember81",
+            "user": "ishikawa-kouhei@tepsys.co.jp"
+        },
+        "proself_base_url": "https://192.168.8.19:8080/",
+        "schedule_interval": "",
+        "tdh_bucket": "log-bucket",
+        "wait_seconds": 10
+    },
+    "RP_HTTPS_S3_PUT": {
+        "cpu_limit": "480m",
+        "diff_filename": "input_dir_diff",
+        "log_directory": "logs",
+        "log_old_directory": "old",
+        "max_retries": 3,
+        "memory_limit": "3G",
+        "objectstore_access_key": "OZ1K7CLN0LK9KW8IDE5G29RCTBT23GHY8YTWACCSZSA8JABRL4621OJSZ5ZW1C2PBGJ2QPDTTZ6YRN2A7EWZFYTJLV7TF3B33COT4UL7SR57ZL6DJY3S501",
+        "objectstore_secret_key": "H18Z77B75BB4YTWSUCMP6LWC",
+        "objectstore_url": "https://datafabric01.datahub.local:9000",
+        "pair": [
+            {
+                "bucket": "rp-demo-bucket",
+                "proself_get_path": "99999_TDH\u5c02\u7528\uff08\u30c6\u30b9\u30c8\uff09/",
+                "s3_base_directory": "comon_projects",
+                "target_directory": "input"
+            },
+            {
+                "bucket": "bucket-02",
+                "proself_get_path": "99999_TDH\u5c02\u7528\uff08\u30c6\u30b9\u30c8\uff09/",
+                "s3_base_directory": "RP_test",
+                "target_directory": "input"
+            }
+        ],
+        "pre_filelist_path": "RP/logs/input_file_list_pre",
+        "pre_filename": "input_file_list_pre",
+        "proself_auth": {
+            "password": "Tepsys555",
+            "user": "tepco-data-hub2@tepsys.co.jp"
+        },
+        "proself_base_url": "https://192.168.8.50:8080/",
+        "schedule_interval": "",
+        "tdh_bucket": "log-bucket",
+        "wait_seconds": 10
+    },
+    "SMARTPJ_FTP_GET_TO_HDFS": {
+        "cpu_limit": "500m",
+        "dtap_path": "dtap://U2_work",
+        "ftp_file_list": [
+            "/tdh/pgss/smartPJ_test/test01.csv",
+            "/tdh/pgss/smartPJ_test/test02.csv",
+            "/tdh/pgss/smartPJ_test/test03.csv"
+        ],
+        "ftp_host": "10.191.3.227",
+        "ftp_password": "password",
+        "ftp_port": "21",
+        "ftp_user": "tdh-admin",
+        "hdfs_dir": "/SMARTPJ/ftp_get1",
+        "max_retries": "3",
+        "memory_limit": "3G",
+        "schedule_interval": "",
+        "wait_seconds": "10"
+    },
+    "SMARTPJ_FTP_GET_TO_HDFS_katou": {
+        "cpu_limit": "500m",
+        "daily_dir_name": "daily",
+        "dtap_path": "dtap://U2_work",
+        "file_mappings": [
+            {
+                "ftp_file": "/tdh/pgss/smartPJ_test/B40PBH1I001_001_O.csv",
+                "hdfs_base_dir": "/mapr/df-cluster01.datahub.local/dev-vol-01/U2_work/kato/financial/jpy_unit_table_info"
+            },
+            {
+                "ftp_file": "/tdh/pgss/smartPJ_test/B40PBH1I002_001_O.csv",
+                "hdfs_base_dir": "/mapr/df-cluster01.datahub.local/dev-vol-01/U2_work/kato/financial/department_income_expenditure_info"
+            },
+            {
+                "ftp_file": "/tdh/pgss/smartPJ_test/B40PBH1I003_001_O.csv",
+                "hdfs_base_dir": "/mapr/df-cluster01.datahub.local/dev-vol-01/U2_work/kato/financial/funds_income_expenditure_comparison"
+            },
+            {
+                "ftp_file": "/tdh/pgss/smartPJ_test/B40PBH1I004_001_O.csv",
+                "hdfs_base_dir": "/mapr/df-cluster01.datahub.local/dev-vol-01/U2_work/kato/financial/equipment_income_expenditure_comparison"
+            }
+        ],
+        "force_month_end": false,
+        "ftp_host": "10.191.3.227",
+        "ftp_password": "password",
+        "ftp_port": 21,
+        "ftp_user": "tdh-admin",
+        "history_dir_name": "history",
+        "max_retries": 3,
+        "memory_limit": "3G",
+        "schedule_interval": "",
+        "wait_seconds": 5
+    },
+    "SMARTPJ_SCRAIPING_GET_OBJECTSTORE": {
+        "cpu_limit": "480m",
+        "memory_limit": "3G",
+        "schedule_interval": ""
+    },
+    "SMARTPJ_SNOWFLAKE_TO_S3": {
+        "cpu_limit": "480m",
+        "memory_limit": "3G",
+        "s3_access_key": "OZ1K7CLN0LK9KW8IDE5G29RCTBT23GHY8YTWACCSZSA8JABRL4621OJSZ5ZW1C2PBGJ2QPDTTZ6YRN2A7EWZFYTJLV7TF3B33COT4UL7SR57ZL6DJY3S501",
+        "s3_bucket": "6s-test",
+        "s3_endpoint_url": "https://datafabric01.datahub.local:9000",
+        "s3_prefix": "SMARTPJ/third_party/weather",
+        "s3_secret_key": "H18Z77B75BB4YTWSUCMP6LWC",
+        "schedule_interval": "",
+        "snowflake_account": "TIDGICL-XJ73053",
+        "snowflake_password": "Teramasato5822",
+        "snowflake_schema": "PUBLIC",
+        "snowflake_user": "MASATOTERAJIMA",
+        "snowflake_warehouse": "COMPUTE_WH",
+        "snowflake_wether_database": "WETHER_ZEAL"
+    },
+    "SSO_LOG": {
+        "bucket": "sso-objectstore",
+        "concurrency": "3",
+        "cpu_limit": "480m",
+        "dagrun_timeout": "86400",
+        "dtap_path": "dtap://SSO",
+        "dtap_path_xo": "dtap://SSO",
+        "ftp_info1": {
+            "host": "10.191.3.227",
+            "password": "password",
+            "port": "21",
+            "user": "tdh-admin"
+        },
+        "ftp_info2": {
+            "host": "10.191.3.227",
+            "password": "password",
+            "port": "21",
+            "user": "tdh-admin"
+        },
+        "ftp_sso_dir": "/tdh/pgss/test",
+        "ftp_ssoeg_dir": "/tdh/pgss/test",
+        "headder": "\u65e5\u4ed8,\u6642\u9593,\u30e6\u30fc\u30b6ID,\u6f22\u5b57\u6c0f\u540d(\u59d3),\u6f22\u5b57\u6c0f\u540d(\u540d),\u6240\u5c5e,\u30b7\u30b9\u30c6\u30e0\u540d,\u30b7\u30b9\u30c6\u30e0URL,\u30e6\u30fc\u30b6\u533a\u5206,\u5728\u8077\u533a\u5206,\u73fe\u8077\u30ab\u30f3\u30d1\u30cb\u30fc\u30b3\u30fc\u30c9,\u73fe\u6240\u5c5e\u30b3\u30fc\u30c9(\u5e97\u6240),\u73fe\u6240\u5c5e\u30b3\u30fc\u30c9(\u8ab2\u6240),\u517c\u52d9\u30d5\u30e9\u30b0,\u95a2\u4fc2\u4f1a\u793e\u30b3\u30fc\u30c9,\u95a2\u4fc2\u4f1a\u793e\u540d\u79f0",
+        "main_dag_timeout": "41",
+        "max_retries": 3,
+        "memory_limit": "3G",
+        "mid_dir": "/midterm",
+        "mid_file1": "/midterm/join1.txt",
+        "mid_file2": "/midterm/join2.txt",
+        "mid_file3": "/midterm/join3.txt",
+        "objectstore_access_key": "OZ1K7CLN0LK9KW8IDE5G29RCTBT23GHY8YTWACCSZSA8JABRL4621OJSZ5ZW1C2PBGJ2QPDTTZ6YRN2A7EWZFYTJLV7TF3B33COT4UL7SR57ZL6DJY3S501",
+        "objectstore_secret_key": "H18Z77B75BB4YTWSUCMP6LWC",
+        "objectstore_url": "https://datafabric01.datahub.local:9000",
+        "outfile_name": "Butt_List",
+        "output_path": "/output/",
+        "parent_dag_cpu_limit": "100m",
+        "parent_dag_memory_limit": "512Mi",
+        "parent_dag_schedule": "",
+        "parent_dag_timeout": "60",
+        "process_date": "",
+        "retries": "0",
+        "retry_delay": "3600",
+        "schedule_interval": "0 20 * * *",
+        "search_shozoku": [
+            "\u30ab\u30a4\u30bc\u30f3\u30fbDX\u6226\u7565\u5ba4\u30b7\u30b9\u30c6\u30e0\u7d71\u62ecG",
+            "\u30d7\u30ed\u30c0\u30af\u30c8\u63a8\u9032\u30b0\u30eb\u30fc\u30d7"
+        ],
+        "sso_dir": "/sso",
+        "ssomarge_path": "/midterm/ssomarge.log",
+        "sub_dag_timeout": "7",
+        "systemlist_path": "/cmn/System_List.csv",
+        "task_timeout": "3600",
+        "userfile_name": "User_All",
+        "userinfo_path": "/cmn/",
+        "wait_seconds": 10
+    },
+    "Sample_FTP_GET": {
+        "cpu_limit": "480m",
+        "dtap_path": "dtap://SSO",
+        "ftp_info": {
+            "dir": "/tdh/pgss/test",
+            "host": "10.191.3.227",
+            "password": "password",
+            "port": "21",
+            "user": "tdh-admin"
+        },
+        "max_retries": 3,
+        "memory_limit": "3G",
+        "process_date": "",
+        "schedule_interval": "",
+        "upload_dir": "/test",
+        "wait_seconds": 10
+    },
+    "Sample_FTP_PUT": {
+        "cpu_limit": "480m",
+        "dtap_path": "dtap://U2_work",
+        "ftp_info": {
+            "dir": "/tdh/pgss/terajima_test/test",
+            "host": "10.191.3.227",
+            "password": "password",
+            "port": "21",
+            "user": "tdh-admin"
+        },
+        "max_retries": 3,
+        "memory_limit": "3G",
+        "process_date": "",
+        "schedule_interval": "",
+        "src_dir": "/terajima/sample_dag",
+        "wait_seconds": 10
+    },
+    "Sample_HTTP_GET": {
+        "base_url": [
+            "https://192.168.8.50:8080"
+        ],
+        "cpu_limit": "500m",
+        "csv_flg": "False",
+        "dest_path": "/terajima/sample_dag",
+        "dtap_path": "dtap://U2_work",
+        "file_list_csv": "upload_files_list",
+        "filter_target": [],
+        "max_retries": 3,
+        "memory_limit": "3G",
+        "method": "PROPFIND",
+        "schedule_interval": "",
+        "src_path": "99999_TDH\u5c02\u7528\uff08\u30c6\u30b9\u30c8\uff09",
+        "user_auth": {
+            "password": "Tepsys555",
+            "user": "tepco-data-hub2@tepsys.co.jp"
+        },
+        "uuid_flg": "False",
+        "wait_seconds": 10
+    },
+    "WORK_CLASSIFICATION": {
+        "concurrency": "10",
+        "cpu_limit": "500m",
+        "dagrun_timeout": "86400",
+        "memory_limit": "2G",
+        "retries": "3",
+        "retry_delay": "3600",
+        "run_mode": "",
+        "task_timeout": "86400"
+    },
+    "XO_cpu_limit": "500m",
+    "XO_dtap_path": "dtap://U2_work",
+    "XO_file_list_csv": "upload_files_list",
+    "XO_ftp_file_list": [
+        "/tdh/pgss/test/User_Dif.file",
+        "/tdh/pgss/test/User_All.file",
+        "/tdh/pgss/test/Soshiki_Dif.file",
+        "/tdh/pgss/test/Soshiki_All.file",
+        "/tdh/pgss/test/Yakusyoku_Dif.file",
+        "/tdh/pgss/test/Yakusyoku_All.file"
+    ],
+    "XO_ftp_get_schedule_interval": "",
+    "XO_ftp_host": "10.191.3.227",
+    "XO_ftp_password": "password",
+    "XO_ftp_port": 21,
+    "XO_ftp_user": "tdh-admin",
+    "XO_hdfs_dir": "/xo-test",
+    "XO_max_retries": 3,
+    "XO_memory_limit": "3G",
+    "XO_wait_seconds": 10,
+    "sample_hankou_kou": {
+        "cpu_limit": "500m",
+        "dtap_path": "dtap://U2_work",
+        "file_delete_schedule_interval": "0 0 * * *",
+        "hdfs_dir": "/kou/hankou/deletetest",
+        "memory_limit": "3G",
+        "num_dates_to_keep": "2"
+    },
+    "smartmeter_daily": {
+        "concurrency": "10",
+        "cpu_limit": "100m",
+        "dagrun_timeout": "86400",
+        "memory_limit": "512Mi",
+        "retries": "3",
+        "retry_delay": "1200",
+        "run_mode": "test",
+        "schedule_interval": "0 20 * * *",
+        "task_timeout": "86400",
+        "traceback_date_pair": [
+            {
+                "run_date": "00000000",
+                "target_timedelta": "1"
+            }
+        ]
+    },
+    "smartmeter_daily_correct": {
+        "cpu_limit": "500m",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "input_table": "dwh_d30_lo_sm",
+        "memory_limit": "3G",
+        "output_table": "dwh_d30_lo_sm_corr",
+        "script_path": "/home/mapr/script/airflow/smartmeter_daily/correct.sh",
+        "target_db": "pgss1"
+    },
+    "smartmeter_daily_empty_file": {
+        "cpu_limit": "500m",
+        "csv_prefix": "SM_D30_LO_HC",
+        "dest_path": "/volume7/smartmeter_daily/empty_file/",
+        "dtap_path": "dtap://test",
+        "memory_limit": "3G"
+    },
+    "smartmeter_daily_ftp_put": {
+        "chunk_size": "104857600",
+        "cpu_limit": "500m",
+        "dest_dtap": "dtap://test",
+        "dest_path": "/volume7/smartmeter_daily/ftp_put/",
+        "file_prefix": "SM_D30_LO_HC",
+        "memory_limit": "3G",
+        "src_dtap": "dtap://test",
+        "src_path": "/volume7/unload/dwh_d30_lo_sm_corr/"
+    },
+    "smartmeter_daily_insert_data": {
+        "chunk_size": "104857600",
+        "clean_target": [
+            "/tdh/volume7/lake/D30_LO_SM",
+            "/tdh/volume7/lake/MAST_CTN",
+            "/tdh/volume7/lake/MAST_CTNKAN",
+            "/tdh/volume7/lake/MAST_HTSHAKY",
+            "/tdh/volume7/lake/MAST_JYSKY",
+            "/tdh/volume7/lake/MAST_KK",
+            "/tdh/volume7/lake/MAST_STB",
+            "/tdh/volume7/lake/MAST_STB_HT"
+        ],
+        "cpu_limit": "500m",
+        "database_name": "pgss1",
+        "dest_path": "/volume7/lake",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "dtap_path": "dtap://test",
+        "memory_limit": "3G",
+        "prefixes": [
+            "D30_LO_SM",
+            "Mast_CTN",
+            "Mast_CTNKAN",
+            "Mast_JYSKY",
+            "Mast_KK",
+            "Mast_STB",
+            "Mast_STB_HT",
+            "Mast_HTSHAKY"
+        ],
+        "remote_dir": "/home/mapr/script/airflow/smartmeter_daily",
+        "src_path": "/volume1/lake/DSG",
+        "tmp_dir": "tmp"
+    },
+    "smartmeter_daily_join": {
+        "cpu_limit": "500m",
+        "database_name": "pgss1",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "memory_limit": "3G",
+        "script_path": "/home/mapr/script/airflow/smartmeter_daily/join.sh",
+        "spark_script_path": "/home/mapr/script/airflow/smartmeter_daily/join_spark.py"
+    },
+    "smartmeter_daily_unload": {
+        "cpu_limit": "500m",
+        "csv_prefix": "SM_D30_LO_HC",
+        "db_name": "pgss1",
+        "df_auth": {
+            "hostname": [
+                "10.191.3.238",
+                "10.191.3.239",
+                "10.191.3.240",
+                "10.191.3.241"
+            ],
+            "password": "password",
+            "port": 22,
+            "username": "mapr"
+        },
+        "df_mount_point": "/tdh",
+        "dtap_work_dir": "/volume7/unload/dwh_d30_lo_sm_corr",
+        "memory_limit": "3G",
+        "python_path": "/home/mapr/script/airflow/smartmeter_daily/unload_spark_zip.py",
+        "script_path": "/home/mapr/script/airflow/smartmeter_daily/unload.sh",
+        "table_name": "dwh_d30_lo_sm_corr"
+    },
+    "terajima_test_interval": "0 8 * * *",
+    "ud_cpu_limit": "500m",
+    "ud_dest_path": "/home/sftpuser01/data/test2",
+    "ud_dtap_path": "dtap://U2_work",
+    "ud_file_list_csv": "upload_files_list",
+    "ud_ftp_get_schedule_interval": "0 17 * * *",
+    "ud_ftp_put_schedule_interval": "0 17 * * *",
+    "ud_hdfs_dir": "/ud-test",
+    "ud_max_retries": 3,
+    "ud_memory_limit": "3G",
+    "ud_proself_auth": {
+        "password": "TDH_PG_6S",
+        "user": "tdh-pg_data-analysis-sysacct-ml@ml.tepsys.co.jp"
+    },
+    "ud_proself_base_url": "https://192.168.8.19:8080",
+    "ud_proself_dir": "06236_AI\u6d3b\u7528\u8a2d\u5099\u30c7\u30fc\u30bf",
+    "ud_proxy_host": "10.191.3.225",
+    "ud_proxy_port": 3128,
+    "ud_sftp_host": "10.191.3.225",
+    "ud_sftp_password": "sftp2023",
+    "ud_sftp_port": 22,
+    "ud_sftp_username": "sftpuser01",
+    "ud_wait_seconds": 10,
+    "usuki_arg1": "test1",
+    "usuki_arg2": "test2",
+    "usukitest": {
+        "usukitest1": "480m",
+        "usukitest2": "3G"
+    }
+}

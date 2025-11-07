@@ -1,0 +1,20 @@
+{
+  "POSITIVE_HRMOS_JOIN": {
+    "cpu_limit": "500m",
+    "memory_limit": "3G",
+    "script_path": "/home/ope-admin01@pg.tdh.tepcube.jp/script/airflow/HRPF/positive_hrmos_join/script/positive_hrmos_join.sh",
+    "spark_script_path": "/home/ope-admin01@pg.tdh.tepcube.jp/script/airflow/HRPF/positive_hrmos_join/script/join",
+    "database_name": "hrpf",
+    "df_auth": {
+      "hostname": [
+        "10.191.3.238",
+        "10.191.3.239",
+        "10.191.3.240",
+        "10.191.3.241"
+      ],
+      "port": 22,
+      "username": "mapr",
+      "password": "password"
+    }
+  }
+}

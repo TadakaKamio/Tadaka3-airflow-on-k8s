@@ -1,0 +1,35 @@
+{
+    "POSITIVE_HRMOS_INSERT_LARGE": {
+        "cpu_limit": "480m",
+        "memory_limit": "3G",
+        "max_workers": 1,
+        "chunk_size": 65536,
+        "dtap_path": "dtap://tdh",
+        "src_path": "/volume4/hrpf",
+        "objectstore_conf": {
+            "bucket": "hrpf-objectstore",
+            "prefix": "",
+            "endpoint_url": "https://p-df01.pg.tdh.tepcube.jp:9000",
+            "aws_access_key_id": "NBL00R2EX00F2VPPMLNNLWL9B7H51RS2OP9EV95OR0J9NMMF4IJX82ASM5XAF80R7QM4WA83H4R2M5KOSF17T2UBNS9PUSRRFYZLMLVHMA5BPVD9",
+            "aws_secret_access_key": "SB8DAFIGDHHVMZ2DB4SOQKJKC2HW4R5F3B80A9MWV0E2K23H4JIICU68EDMEQP36XUHKG18ITBIQ0Y1WDMGCIR48RIMH3RBN4H2BFKJEHG9BZO5QJ"
+            },
+        "lake_location": "/volume5/hrpf/lake",
+        "lake_backup_path": "/volume5/hrpf/backup/lake",
+        "database_name": "hrpf",
+        "df_auth": {
+            "hostname": [
+            "10.191.14.13", 
+            "10.191.14.14", 
+            "10.191.14.15"
+            ],
+            "port": 22,
+            "username": "ope-admin01",
+            "password": "R!fsuo2R"
+        },
+        "remote_dir": "/home/ope-admin01@pg.tdh.tepcube.jp/script/airflow/HRPF/positive_hrmos_insert/script",
+        "spark_script_file": ["insert_HRPF_00h.py"],
+        "file_table_mapping": {
+            "推論結果データ": "hrpf_00h_lake"
+        }
+    }
+}

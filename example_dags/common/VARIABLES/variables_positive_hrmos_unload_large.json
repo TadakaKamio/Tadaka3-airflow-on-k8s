@@ -1,0 +1,28 @@
+{	
+    "POSITIVE_HRMOS_UNLOAD_large": {	
+        "cpu_limit": "480m",	
+        "memory_limit": "3G",	
+        "script_path":"/home/ope-admin01@pg.tdh.tepcube.jp/script/airflow/HRPF/positive_hrmos_unload/script/unload.sh",	
+        "unified_script_path":"/home/ope-admin01@pg.tdh.tepcube.jp/script/airflow/HRPF/positive_hrmos_unload/script/unload_spark_POHR_DM_large.py",	
+           "df_auth": {	
+            "hostname": [	
+                    "10.191.14.13", 	
+                    "10.191.14.14", 	
+                    "10.191.14.15"	
+            ],	
+            "port": 22,	
+            "username": "ope-admin01",	
+            "password": "R!fsuo2R"	
+        },
+        "environment_overrides": {	
+            "db_name": "hrpf",	
+            "df_mount_point": "/tdh",	
+            "dtap_work_dir":"/volume5/hrpf/unload/POHR"	
+        },
+        "performance_overrides": {	
+            "PARALLEL_WORKERS": 1,	
+            "MEMORY_THRESHOLD": 0.9,	
+            "SWAP_THRESHOLD": 0.6	
+        }
+    }	
+}	

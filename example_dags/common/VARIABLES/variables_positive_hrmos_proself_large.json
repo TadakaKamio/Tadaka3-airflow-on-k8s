@@ -1,0 +1,31 @@
+{
+    "POSITIVE_HRMOS_PROSELF_LARGE": {
+        "cpu_limit": "480m",
+        "memory_limit": "3G",
+        "max_workers": 1,
+        "chunk_size": 65536,
+        "dtap_path": "dtap://tdh",
+        "src_path": "/volume4/hrpf",
+        "proself_check" : true,
+        "proself_copy" : true,
+        "objectstore_conf": {
+            "bucket": "hrpf-objectstore",
+            "prefix": "input",
+            "endpoint_url": "https://p-df01.pg.tdh.tepcube.jp:9000",
+            "aws_access_key_id": "NBL00R2EX00F2VPPMLNNLWL9B7H51RS2OP9EV95OR0J9NMMF4IJX82ASM5XAF80R7QM4WA83H4R2M5KOSF17T2UBNS9PUSRRFYZLMLVHMA5BPVD9",
+            "aws_secret_access_key": "SB8DAFIGDHHVMZ2DB4SOQKJKC2HW4R5F3B80A9MWV0E2K23H4JIICU68EDMEQP36XUHKG18ITBIQ0Y1WDMGCIR48RIMH3RBN4H2BFKJEHG9BZO5QJ"
+        },
+        "proself_conf": {
+            "base_url": "https://192.168.8.19:8080/08439_E-タレントTDH連携PoC構築情報共有/91_Data",
+            "user_auth": {
+            "user": "tdh_hrpf_operations-ml@ml.tepsys.co.jp", 
+            "password": "B1HnuxMNZTxj"
+            },
+            "max_retries": 1,
+            "wait_seconds": 10
+        },
+        "file_table_mapping": {
+            "推論結果データ": "hrpf_00h_lake"
+        }
+    }
+}

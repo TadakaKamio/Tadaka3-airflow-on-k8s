@@ -1,0 +1,13 @@
+{
+    "POSITIVE_HRMOS": {
+        "run_mode": "",
+        "cpu_limit": "100m",
+        "memory_limit": "512Mi",
+        "concurrency": "10",
+        "dagrun_timeout": "86400",
+        "schedule_interval": "",
+        "retries": "3",
+        "retry_delay": "3600",
+        "task_timeout": "86400"
+    }
+}

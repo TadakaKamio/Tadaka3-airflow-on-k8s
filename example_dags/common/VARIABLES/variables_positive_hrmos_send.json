@@ -1,0 +1,21 @@
+{
+    "POSITIVE_HRMOS_SEND": {
+        "cpu_limit": "480m",
+        "memory_limit": "2G",
+        "src_path": "dtap://tdh/volume5/hrpf/unload",
+        "backup_path": "dtap://tdh/volume5/hrpf/backup/unload",
+        "backup_enabled": true,
+        "permission_to_send": true,
+        "backup_retention_days": 7,
+        "proxy_host1": "p-proxy01.pg.tdh.tepcube.jp",
+        "proxy_port1": 443,
+        "proxy_host2": "p-proxy02.pg.tdh.tepcube.jp",
+        "proxy_port2": 443, 
+        "s3_config": {
+            "bucket_name": "tdh-file-bucket",
+            "s3_prefix": "hrmos",
+            "connection_id": "aws_s3_hrmos",
+            "use_ssl": true
+        }
+    }
+}

@@ -1,0 +1,558 @@
+{
+    "P001_manual_tool_download_run_mode": "info",
+    "P001_manual_tool_download_schedule_interval": "0 13 * * *",
+    "P001_manual_tool_download_test": false,
+    "P001_manual_tool_test_expect_files": [],
+    "P002_delivery_process_base_path": "dtap://tdh",
+    "P002_delivery_process_cpu_limit": "500m",
+    "P002_delivery_process_dest_path": "/data/",
+    "P002_delivery_process_dest_path_existing": "/data/01_PGSS/From_202404/TempSV/",
+    "P002_delivery_process_dest_path_hankou": "/data/02_HANKOU_EIGYOU/From_202311/Proself/",
+    "P002_delivery_process_dest_path_new": "/data/01_PGSS/From_202410/TempSV/",
+    "P002_delivery_process_existing_target_files": [
+        "CNST_ADDRESS",
+        "CNST_GYOUSHU",
+        "CNST_KK_KATA",
+        "D30_HI_KK",
+        "D30_LO_SM",
+        "D30_TELEMETER",
+        "GEKN_DRRYO_HI_PGCIS",
+        "GEKN_DRRYO_HI_TS",
+        "GEKN_DRRYO_LO_PGCIS",
+        "GEKN_DRRYO_LO_TS",
+        "Mast_BG",
+        "Mast_CTN",
+        "Mast_CTNKAN",
+        "Mast_HTSHAKY",
+        "Mast_IDO_COMMON_INFO",
+        "Mast_JYSKY",
+        "Mast_JYSKY_JIKAHO",
+        "Mast_JYSKY_JRY",
+        "Mast_JYSKY_RNJI",
+        "Mast_JYSKY_TEGK",
+        "Mast_JYSKY_YOBI",
+        "Mast_JYSKY_YOBID",
+        "Mast_KK",
+        "Mast_PGCISKY_COMMON",
+        "Mast_PGCISKY_JKKY",
+        "Mast_STB",
+        "Mast_STB_HT",
+        "Mast_STB_HT2",
+        "Mast_STB_KAIRO",
+        "Mast_STB_SNY",
+        "RD30_HI_KK"
+    ],
+    "P002_delivery_process_flag_dir": "/volume1/lake/DSG_delivered/",
+    "P002_delivery_process_hankou_target_files": [
+        "\u67f1\u5bb6_D3_hashiraie",
+        "kouatujuyouka"
+    ],
+    "P002_delivery_process_max_retries": 3,
+    "P002_delivery_process_memory_limit": "6G",
+    "P002_delivery_process_new_target_files": [
+        "CNST_HAIDENBLOCK",
+        "CNST_HAIHEN_KIKANHEN",
+        "CNST_SOUDENSEN_KIKANHEN",
+        "CNST_STB_HT_WARIBIKIA",
+        "CNST_STB_HT_WARIBIKIB",
+        "CNST_TNSHOADDRESS",
+        "CNST_TNSHO",
+        "Mast_CTNHAIDNKAN",
+        "Mast_DHSKY",
+        "Mast_DKKY_JSRRK",
+        "Mast_HATSUDENKAKIN_JSRRK",
+        "Mast_HTSHA_JSRRK",
+        "Mast_JGSHAKY",
+        "Mast_JKKY_JSRRK",
+        "Mast_JYS_JSRRK",
+        "Mast_JYYKSKY",
+        "Mast_KTRNKEIKY_JSRRK",
+        "Mast_PGCISKY_DKKY",
+        "Mast_PGCISKY_JIDOKENSNSHOHIHIYO",
+        "Mast_PGCISKY_JISHA_DR",
+        "Mast_PGCISKY_JRY",
+        "Mast_PGCISKY_KTRNKEIKY",
+        "Mast_PGCISKY_RNJI",
+        "Mast_PGCISKY_SNY_TOU",
+        "Mast_PGCISKY_TEGK",
+        "Mast_PGCISKY_YOBID",
+        "Mast_PGCISKY_YOBI",
+        "Mast_SHUTSURYOKU_CNTRL_INFO_KANRI",
+        "Mast_STB_HT_WBKI",
+        "Mast_TAKUSOUKEIYKKANRI",
+        "Mast_TM_SAIRKSOGN",
+        "RYK_SC_SS",
+        "UKH_CALENDAR",
+        "UKH_MNG",
+        "GEKN_DRRYO_DK"
+    ],
+    "P002_delivery_process_pgss_schedule_interval": "0 15 * * *",
+    "P002_delivery_process_proxy_host": "p-proxy03.pg.tdh.tepcube.jp",
+    "P002_delivery_process_proxy_port": 2222,
+    "P002_delivery_process_schedule_interval": "0 15 * * *",
+    "P002_delivery_process_schedule_interval_old": "30 15 * * *",
+    "P002_delivery_process_sftp_host": "10.191.13.139",
+    "P002_delivery_process_sftp_password": "tPZ3gTJYxgtH",
+    "P002_delivery_process_sftp_port": 22,
+    "P002_delivery_process_src_path": "/volume1/lake/DSG/",
+    "P002_delivery_process_username": "tdh-df1-001",
+    "P002_delivery_process_wait_seconds": 10,
+    "P004_download_files_from_ftp_cpu_limit": "500m",
+    "P004_download_files_from_ftp_dtap_path": "dtap://tdh",
+    "P004_download_files_from_ftp_filter_target_files": [
+        "CNST_ADDRESS",
+        "CNST_GYOUSHU",
+        "CNST_KK_KATA",
+        "D30_HI_KK",
+        "D30_LO_SM",
+        "D30_TELEMETER",
+        "GEKN_DRRYO_HI_PGCIS",
+        "GEKN_DRRYO_HI_TS",
+        "GEKN_DRRYO_LO_PGCIS",
+        "GEKN_DRRYO_LO_TS",
+        "Mast_BG",
+        "Mast_CTN",
+        "Mast_CTNKAN",
+        "Mast_HTSHAKY",
+        "Mast_IDO_COMMON_INFO",
+        "Mast_JYSKY",
+        "Mast_JYSKY_JIKAHO",
+        "Mast_JYSKY_JRY",
+        "Mast_JYSKY_RNJI",
+        "Mast_JYSKY_TEGK",
+        "Mast_JYSKY_YOBI",
+        "Mast_JYSKY_YOBID",
+        "Mast_KK",
+        "Mast_PGCISKY_COMMON",
+        "Mast_PGCISKY_JKKY",
+        "Mast_STB",
+        "Mast_STB_HT",
+        "Mast_STB_HT2",
+        "Mast_STB_KAIRO",
+        "Mast_STB_SNY",
+        "RD30_HI_KK",
+        "\u67f1\u5bb6_D3_hashiraie",
+        "kouatujuyouka",
+        "CNST_TNSHOADDRESS",
+        "CNST_TNSHO",
+        "CNST_HAIDENBLOCK",
+        "CNST_STB_HT_WARIBIKIA",
+        "CNST_STB_HT_WARIBIKIB",
+        "CNST_SOUDENSEN_KIKANHEN",
+        "CNST_HAIHEN_KIKANHEN",
+        "Mast_JGSHAKY",
+        "Mast_DHSKY",
+        "Mast_TAKUSOUKEIYKKANRI",
+        "Mast_CTNHAIDNKAN",
+        "Mast_STB_HT_WBKI",
+        "Mast_TM_SAIRKSOGN",
+        "Mast_JYS_JSRRK",
+        "Mast_HTSHA_JSRRK",
+        "Mast_HATSUDENKAKIN_JSRRK",
+        "Mast_JYYKSKY",
+        "Mast_PGCISKY_DKKY",
+        "Mast_PGCISKY_KTRNKEIKY",
+        "Mast_PGCISKY_JIDOKENSNSHOHIHIYO",
+        "Mast_PGCISKY_JISHA_DR",
+        "Mast_PGCISKY_SNY_TOU",
+        "Mast_PGCISKY_TEGK",
+        "Mast_PGCISKY_JRY",
+        "Mast_PGCISKY_RNJI",
+        "Mast_PGCISKY_YOBI",
+        "Mast_PGCISKY_YOBID",
+        "Mast_DKKY_JSRRK",
+        "Mast_JKKY_JSRRK",
+        "Mast_KTRNKEIKY_JSRRK",
+        "Mast_SHUTSURYOKU_CNTRL_INFO_KANRI",
+        "RYK_SC_SS",
+        "UKH_CALENDAR",
+        "UKH_MNG",
+        "GEKN_DRRYO_DK"
+    ],
+    "P004_download_files_from_ftp_ftp_dir": "/tdh/pgss/",
+    "P004_download_files_from_ftp_ftp_host": "10.191.14.30",
+    "P004_download_files_from_ftp_ftp_passwd": "4+ds6EcZ0E",
+    "P004_download_files_from_ftp_ftp_port": 21,
+    "P004_download_files_from_ftp_ftp_user": "tdh-app",
+    "P004_download_files_from_ftp_memory_limit": "3G",
+    "P004_download_files_from_ftp_schedule_interval": "30 13 * * *",
+    "P004_download_files_from_ftp_upload_dir": "/volume1/lake/DSG/",
+    "P005_download_past_files_from_ftp_cpu_limit": "500m",
+    "P005_download_past_files_from_ftp_ftp_dir": "/tdh/pgss-past/work",
+    "P005_download_past_files_from_ftp_memory_limit": "6G",
+    "P005_download_past_files_from_ftp_schedule_interval": "30 14 * * *",
+    "P005_download_past_files_from_ftp_upload_dir": "/volume1/lake/pgss-past/",
+    "P006_PARENT_smartmeter_concurrency": 3,
+    "P006_PARENT_smartmeter_cpu_limit": "100m",
+    "P006_PARENT_smartmeter_dagrun_timeout": 86400,
+    "P006_PARENT_smartmeter_memory_limit": "512Mi",
+    "P006_PARENT_smartmeter_retries": 3,
+    "P006_PARENT_smartmeter_retry_delay": 3600,
+    "P006_PARENT_smartmeter_run_mode": "",
+    "P006_PARENT_smartmeter_schedule_interval": "0 17 * * *",
+    "P006_PARENT_smartmeter_task_timeout": 86400,
+    "P006_PARENT_smartmeter_traceback_date_pair": [
+        {
+            "end_date": "20240831",
+            "run_date": "00000000",
+            "start_date": "20240801"
+        },
+        {
+            "end_date": "20220602",
+            "run_date": "20240716",
+            "start_date": "20220601"
+        },
+        {
+            "end_date": "20220731",
+            "run_date": "20240717",
+            "start_date": "20220701"
+        },
+        {
+            "end_date": "20220831",
+            "run_date": "20240718",
+            "start_date": "20220801"
+        },
+        {
+            "end_date": "20220930",
+            "run_date": "20240719",
+            "start_date": "20220901"
+        },
+        {
+            "end_date": "20221031",
+            "run_date": "20240720",
+            "start_date": "20221001"
+        },
+        {
+            "end_date": "20221130",
+            "run_date": "20240721",
+            "start_date": "20221101"
+        },
+        {
+            "end_date": "20221231",
+            "run_date": "20240722",
+            "start_date": "20221201"
+        },
+        {
+            "end_date": "20230131",
+            "run_date": "20240723",
+            "start_date": "20230101"
+        },
+        {
+            "end_date": "20230228",
+            "run_date": "20240724",
+            "start_date": "20230201"
+        },
+        {
+            "end_date": "20230331",
+            "run_date": "20240725",
+            "start_date": "20230301"
+        },
+        {
+            "end_date": "20230430",
+            "run_date": "20240726",
+            "start_date": "20230401"
+        },
+        {
+            "end_date": "20230531",
+            "run_date": "20240727",
+            "start_date": "20230501"
+        },
+        {
+            "end_date": "20230630",
+            "run_date": "20240728",
+            "start_date": "20230601"
+        },
+        {
+            "end_date": "20230731",
+            "run_date": "20240729",
+            "start_date": "20230701"
+        },
+        {
+            "end_date": "20230831",
+            "run_date": "20240730",
+            "start_date": "20230801"
+        },
+        {
+            "end_date": "20230930",
+            "run_date": "20240731",
+            "start_date": "20230901"
+        },
+        {
+            "end_date": "20231031",
+            "run_date": "20240801",
+            "start_date": "20231001"
+        },
+        {
+            "end_date": "20231231",
+            "run_date": "20240802",
+            "start_date": "20231201"
+        },
+        {
+            "end_date": "20231231",
+            "run_date": "20240803",
+            "start_date": "20231201"
+        },
+        {
+            "end_date": "20240131",
+            "run_date": "20240804",
+            "start_date": "20240101"
+        },
+        {
+            "end_date": "20230731",
+            "run_date": "20240805",
+            "start_date": "20230701"
+        },
+        {
+            "end_date": "20230902",
+            "run_date": "20240806",
+            "start_date": "20230901"
+        },
+        {
+            "end_date": "20230930",
+            "run_date": "20240807",
+            "start_date": "20230903"
+        },
+        {
+            "end_date": "20231031",
+            "run_date": "20240808",
+            "start_date": "20231001"
+        },
+        {
+            "end_date": "20231130",
+            "run_date": "20240809",
+            "start_date": "20231101"
+        },
+        {
+            "end_date": "20231231",
+            "run_date": "20240810",
+            "start_date": "20231201"
+        },
+        {
+            "end_date": "20240131",
+            "run_date": "20240811",
+            "start_date": "20240101"
+        },
+        {
+            "end_date": "20240229",
+            "run_date": "20240812",
+            "start_date": "20240201"
+        },
+        {
+            "end_date": "20240331",
+            "run_date": "20240813",
+            "start_date": "20240301"
+        },
+        {
+            "end_date": "20240430",
+            "run_date": "20240814",
+            "start_date": "20240401"
+        },
+        {
+            "end_date": "20240531",
+            "run_date": "20240815",
+            "start_date": "20240501"
+        },
+        {
+            "end_date": "20240630",
+            "run_date": "20240816",
+            "start_date": "20240601"
+        },
+        {
+            "end_date": "20240731",
+            "run_date": "20240817",
+            "start_date": "20240701"
+        },
+        {
+            "end_date": "20220630",
+            "run_date": "20240818",
+            "start_date": "20220601"
+        },
+        {
+            "end_date": "20220531",
+            "run_date": "20240819",
+            "start_date": "20220501"
+        },
+        {
+            "end_date": "20220430",
+            "run_date": "20240820",
+            "start_date": "20220401"
+        },
+        {
+            "end_date": "20220331",
+            "run_date": "20240821",
+            "start_date": "20220301"
+        },
+        {
+            "end_date": "20220228",
+            "run_date": "20240822",
+            "start_date": "20220201"
+        },
+        {
+            "end_date": "20220131",
+            "run_date": "20240823",
+            "start_date": "20220101"
+        },
+        {
+            "end_date": "20211231",
+            "run_date": "20240824",
+            "start_date": "20211201"
+        },
+        {
+            "end_date": "20211130",
+            "run_date": "20240825",
+            "start_date": "20211101"
+        },
+        {
+            "end_date": "20211031",
+            "run_date": "20240826",
+            "start_date": "20211001"
+        },
+        {
+            "end_date": "20210930",
+            "run_date": "20240827",
+            "start_date": "20210901"
+        },
+        {
+            "end_date": "20210831",
+            "run_date": "20240828",
+            "start_date": "20210801"
+        },
+        {
+            "end_date": "20210731",
+            "run_date": "20240829",
+            "start_date": "20210701"
+        },
+        {
+            "end_date": "20210630",
+            "run_date": "20240830",
+            "start_date": "20210601"
+        },
+        {
+            "end_date": "20210531",
+            "run_date": "20240831",
+            "start_date": "20210501"
+        },
+        {
+            "end_date": "20210430",
+            "run_date": "20240901",
+            "start_date": "20210328"
+        },
+        {
+            "end_date": "20240831",
+            "run_date": "20240912",
+            "start_date": "20240803"
+        },
+        {
+            "end_date": "20240831",
+            "run_date": "20240913",
+            "start_date": "20240803"
+        },
+        {
+            "end_date": "20240914",
+            "run_date": "20240923",
+            "start_date": "20240907"
+        },
+        {
+            "end_date": "20240918",
+            "run_date": "20240925",
+            "start_date": "20240915"
+        },
+        {
+            "end_date": "20240906",
+            "run_date": "20240926",
+            "start_date": "20240905"
+        }
+    ],
+    "P006_correct_cpu_limit": "100m",
+    "P006_correct_df_auth": {
+        "hostname": [
+            "10.191.14.15",
+            "10.191.14.13",
+            "10.191.14.14"
+        ],
+        "password": "R!fsuo2R",
+        "port": 22,
+        "username": "ope-admin01"
+    },
+    "P006_correct_input_table": "dwh_d30_lo_sm",
+    "P006_correct_memory_limit": "1G",
+    "P006_correct_output_table": "dwh_d30_lo_sm_corr",
+    "P006_correct_script_path": "/home/ope-admin01@pg.tdh.tepcube.jp/script/airflow/P006/P006_correct_dwh_d30_lo_sm.sh",
+    "P006_correct_target_db": "pgss1",
+    "P006_cpu_limit": "100m",
+    "P006_csv_prefix": "SM_D30_LO_HC",
+    "P006_df_auth": {
+        "hostname": [
+            "10.191.14.15",
+            "10.191.14.13",
+            "10.191.14.14"
+        ],
+        "password": "R!fsuo2R",
+        "port": 22,
+        "username": "ope-admin01"
+    },
+    "P006_df_mount_point": "/tdh",
+    "P006_dtap_work_dir": "/volume7/unload/dwh_d30_lo_sm_corr",
+    "P006_join_database_name": "pgss1",
+    "P006_join_script_path": "/home/ope-admin01@pg.tdh.tepcube.jp/script/airflow/P006/P006_join.sh",
+    "P006_join_spark_script_path": "/home/ope-admin01@pg.tdh.tepcube.jp/script/airflow/P006/P006_join_spark.py",
+    "P006_memory_limit": "1G",
+    "P006_python_path": "/home/ope-admin01@pg.tdh.tepcube.jp/script/airflow/P006/P006_unload_spark_gz.py",
+    "P006_script_path": "/home/ope-admin01@pg.tdh.tepcube.jp/script/airflow/P006/P006_unload.sh",
+    "P006_simple_processing_clean_target": [
+        "/tdh/volume7/lake/D30_LO_SM",
+        "/tdh/volume7/lake/MAST_CTN",
+        "/tdh/volume7/lake/MAST_CTNKAN",
+        "/tdh/volume7/lake/MAST_HTSHAKY",
+        "/tdh/volume7/lake/MAST_JYSKY",
+        "/tdh/volume7/lake/MAST_KK",
+        "/tdh/volume7/lake/MAST_STB",
+        "/tdh/volume7/lake/MAST_STB_HT"
+    ],
+    "P006_simple_processing_database_name": "pgss1",
+    "P006_simple_processing_df_auth": {
+        "hostname": [
+            "10.191.14.15",
+            "10.191.14.13",
+            "10.191.14.14"
+        ],
+        "password": "R!fsuo2R",
+        "port": 22,
+        "username": "ope-admin01"
+    },
+    "P006_simple_processing_remote_dir": "/home/ope-admin01@pg.tdh.tepcube.jp/script/airflow/P006",
+    "P006_sm_combine_unzip_data_chunk_size": 104857600,
+    "P006_sm_combine_unzip_data_cpu_limit": "500m",
+    "P006_sm_combine_unzip_data_dest_path": "/volume7/lake",
+    "P006_sm_combine_unzip_data_dtap_path": "dtap://tdh",
+    "P006_sm_combine_unzip_data_memory_limit": "3G",
+    "P006_sm_combine_unzip_data_prefixes": [
+        "D30_LO_SM",
+        "Mast_CTN",
+        "Mast_CTNKAN",
+        "Mast_JYSKY",
+        "Mast_KK",
+        "Mast_STB",
+        "Mast_STB_HT",
+        "Mast_HTSHAKY"
+    ],
+    "P006_sm_combine_unzip_data_src_path": "/volume1/lake/pgss-past",
+    "P006_sm_combine_unzip_data_tmp_dir": "tmp",
+    "P006_unload_db_name": "pgss1",
+    "P006_unload_table_name": "dwh_d30_lo_sm_corr",
+    "P007_cpu_limit": "500m",
+    "P007_memory_limit": "16G",
+    "P008_gz_to_zip_chunk_size": 31457280,
+    "P008_gz_to_zip_combine_num": 2,
+    "P008_gz_to_zip_compress_level": 3,
+    "P008_gz_to_zip_cpu_limit": "120m",
+    "P008_gz_to_zip_dtap_path": "dtap://tdh",
+    "P008_gz_to_zip_get_dir": "/volume7/unload/dwh_d30_lo_sm_corr",
+    "P008_gz_to_zip_memory_limit": "1G",
+    "P008_gz_to_zip_relocation_dir": "/volume7/gz_to_zip/gz",
+    "P008_gz_to_zip_schedule_interval": "",
+    "P009_proself_put_chunk_size": 31457280,
+    "P009_proself_put_cpu_limit": "500m",
+    "P009_proself_put_dtap_path": "dtap://tdh",
+    "P009_proself_put_get_dir": "/volume7/gz_to_zip/put_files"
+}
